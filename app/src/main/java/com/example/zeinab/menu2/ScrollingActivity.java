@@ -22,11 +22,13 @@ public class ScrollingActivity extends AppCompatActivity {
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/B Zar_YasDL.com.ttf");
         TextView tv = (TextView) findViewById(R.id.textView3);
         TextView tv6 = (TextView) findViewById(R.id.textView6);
+        TextView tv5 = (TextView) findViewById(R.id.textView5);
         TextView tv7 = (TextView) findViewById(R.id.textView7);
         EditText et = (EditText) findViewById(R.id.editText);
 
 
         tv.setTypeface(tf);
+        tv5.setTypeface(tf);
         tv6.setTypeface(tf);
         tv7.setTypeface(tf);
         et.setTypeface(tf);

@@ -1,4 +1,4 @@
-#Wed Jul 19 14:50:08 IRDT 2017
+#Tue Jul 25 09:31:57 IRDT 2017
 base.0=C\:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5dc6ae9b25eddefda2d95e1e9eed816d7f0dd674
 renamed.1=classes2.dex
 renamed.0=classes.dex

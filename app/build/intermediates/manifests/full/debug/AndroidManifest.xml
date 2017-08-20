@@ -37,6 +37,30 @@
             android:name="com.example.zeinab.menu2.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ShowInstructions"
+            android:label="@string/title_activity_show_standards"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ShowStandards"
+            android:label="@string/title_activity_show_standards"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.viewImage"
+            android:label="view image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ListInstructions"
+            android:label="Instruction list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        >
+        <activity android:name="com.example.zeinab.menu2.InstructionList" />
+        <activity android:name="com.example.zeinab.menu2.Search" />
+        <activity
+            android:name="com.example.zeinab.menu2.ListStandards"
+            android:label="Instruction list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.zeinab.menu2.About" />
     </application>
 
 </manifest>

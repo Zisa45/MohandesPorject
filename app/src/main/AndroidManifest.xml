@@ -26,7 +26,31 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowInstructions"
+            android:label="@string/title_activity_show_standards"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowStandards"
+            android:label="@string/title_activity_show_standards"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewImage"
+            android:label="view image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListInstructions"
+            android:label="Instruction list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        >
+        <activity android:name=".InstructionList" />
+        <activity android:name=".Search" />
+        <activity
+            android:name=".ListStandards"
+            android:label="Instruction list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>

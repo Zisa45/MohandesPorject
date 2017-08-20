@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_layout"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="دستورالعمل" />
-        <item
-            android:id="@+id/nav_second_layout"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_folder_black_48dp"
             android:title="استاندارد" />
         <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_folder_open_black_48dp"
+            android:title="دستورالعمل" />
+        <item
             android:id="@+id/nav_third_layout"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="پروژه" />
+            android:icon="@drawable/ic_border_color_black_48dp"
+            android:title="ایجاد پروژه" />
 
     </group>
 
@@ -21,11 +21,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_insert_chart_black_48dp"
                 android:title="گزارش" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search_black_48dp"
                 android:title="جستجو" />
         </menu>
     </item>
@@ -34,9 +34,14 @@
         <menu>
             <item
                 android:id="@+id/nav_manage"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/ic_settings_black_48dp"
                 android:title="تنظیمات" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_message_black_48dp"
+                android:title="درباره ما" />
         </menu>
+
     </item>
 
 </menu>

@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/network"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -44,13 +44,53 @@
             android:label="Instruction list"
             android:theme="@style/AppTheme.NoActionBar" />
         >
-        <activity android:name=".InstructionList" />
+        <activity
+            android:name=".InstructionList"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".Search" />
         <activity
             android:name=".ListStandards"
             android:label="Instruction list"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
+        <activity
+            android:name=".CreateProject"
+            android:label="@string/title_activity_create_project"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".project.ObserverList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".DesignerList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".OwnerList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ContractorList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ProjectList"
+            android:label="ProjectList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowProject"
+            android:label="@string/title_activity_show_project"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddDesigner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddOwner"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AddObserver"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AddContractor"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
     </application>
 
 </manifest>

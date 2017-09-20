@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeinab.menu2.AddDesigner"
+    tools:showIn="@layout/activity_add_designer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.15"
+                android:gravity="left"
+                android:text="لغو"
+                android:textColor="#3797d1"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_titr"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.15"
+                android:gravity="center_vertical|center"
+                android:text="ایجاد ناظر"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_done"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.15"
+                android:gravity="right"
+                android:text="تایید"
+                android:textColor="#3797d1"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:hint=""
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <!--<EditText-->
+            <!--android:id="@+id/et_fileNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="نام و نام خانوادگی" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_phoneNum"
+                android:singleLine="true"
+                android:layout_width="202dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="number"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_contractNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_phoneNumber"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="شماره تلفن همراه" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_tel"
+                android:singleLine="true"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="number"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_contractNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_phoneNumber"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="شماره تلفن ثابت" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_fax"
+                android:singleLine="true"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="number"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_contractNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_phoneNumber"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="شماره فکس" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:hint=""
+                android:inputType="text"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_address"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="text"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_location"
+                android:text="آدرس" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

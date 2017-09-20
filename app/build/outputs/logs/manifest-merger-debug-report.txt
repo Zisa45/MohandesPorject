@@ -1,28 +1,28 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:2:1-96:12
 	package
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:8:5-54:19
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:8:5-94:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\zeinab\.android\build-cache\c4d0f0721cd1b44154171919cef4e2b79d63aae0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\zeinab\.android\build-cache\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\zeinab\.android\build-cache\64f06d6cf832138fa82ae7edd92d19323430e2bd\output\AndroidManifest.xml:26:5-20
@@ -36,101 +36,175 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\zeinab\.androi
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\zeinab\.android\build-cache\04fe0553d645343dc328ba176a770b653013bed0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zeinab\.android\build-cache\3dac4cfcfb557c010f68f8c93d4a02fa9812214c\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:10:9-41
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.zeinab.menu2.MainActivity
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:15:9-24:20
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:18:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:16:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.example.zeinab.menu2.First
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:25:9-43
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:25:9-43
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:25:19-40
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:25:19-40
 activity#com.example.zeinab.menu2.ScrollingActivity
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:26:9-29:59
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:28:13-61
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:28:13-61
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:29:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:27:13-46
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:27:13-46
 activity#com.example.zeinab.menu2.ShowInstructions
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:30:9-33:59
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:32:13-66
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:31:13-45
 activity#com.example.zeinab.menu2.ShowStandards
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:34:9-37:59
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:36:13-66
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:36:13-66
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:35:13-42
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:35:13-42
 activity#com.example.zeinab.menu2.viewImage
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:38:9-41:59
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:38:9-41:59
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:40:13-39
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:40:13-39
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:39:13-38
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:39:13-38
 activity#com.example.zeinab.menu2.ListInstructions
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:42:9-45:59
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:42:9-45:59
 	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:44:13-45
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:44:13-45
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:43:13-45
 activity#com.example.zeinab.menu2.InstructionList
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:47:9-53
-	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:47:19-50
-activity#com.example.zeinab.menu2.Search
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:48:9-44
-	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:48:19-41
-activity#com.example.zeinab.menu2.ListStandards
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:49:9-52:59
-	android:label
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:51:13-45
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:47:9-49:58
 	android:theme
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:50:13-42
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:48:13-44
+activity#com.example.zeinab.menu2.Search
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:50:9-44
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:50:19-41
+activity#com.example.zeinab.menu2.ListStandards
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:51:9-54:59
+	android:label
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:53:13-45
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:52:13-42
 activity#com.example.zeinab.menu2.About
-ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:53:9-52
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:55:9-43
 	android:name
-		ADDED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml:53:19-40
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:55:19-40
+activity#com.example.zeinab.menu2.CreateProject
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:56:9-59:59
+	android:label
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:58:13-66
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:59:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:57:13-42
+activity#com.example.zeinab.menu2.project.ObserverList
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:60:9-62:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:61:13-49
+activity#com.example.zeinab.menu2.DesignerList
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:63:9-65:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:64:13-41
+activity#com.example.zeinab.menu2.OwnerList
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:66:9-68:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:67:13-38
+activity#com.example.zeinab.menu2.ContractorList
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:69:9-71:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:70:13-43
+activity#com.example.zeinab.menu2.ProjectList
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:72:9-75:59
+	android:label
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:74:13-40
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:75:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:73:13-40
+activity#com.example.zeinab.menu2.ShowProject
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:76:9-79:59
+	android:label
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:78:13-64
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:79:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:77:13-40
+activity#com.example.zeinab.menu2.AddDesigner
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:80:9-82:59
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:82:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:81:13-40
+activity#com.example.zeinab.menu2.AddOwner
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:83:9-85:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:84:13-37
+activity#com.example.zeinab.menu2.AddObserver
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:86:9-88:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:88:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:87:13-40
+activity#com.example.zeinab.menu2.AddContractor
+ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:89:9-91:58
+	android:theme
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:91:13-56
+	android:name
+		ADDED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml:90:13-42
 uses-sdk
-INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\zeinab\.android\build-cache\c4d0f0721cd1b44154171919cef4e2b79d63aae0\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\zeinab\.android\build-cache\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\zeinab\.android\build-cache\64f06d6cf832138fa82ae7edd92d19323430e2bd\output\AndroidManifest.xml:20:5-44
@@ -147,11 +221,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\zeinab\.android
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\zeinab\.android\build-cache\c4d0f0721cd1b44154171919cef4e2b79d63aae0\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\zeinab\Desktop\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\zeinab\.android\build-cache\c4d0f0721cd1b44154171919cef4e2b79d63aae0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\zeinab\.android\build-cache\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\output\AndroidManifest.xml:25:5-27:34

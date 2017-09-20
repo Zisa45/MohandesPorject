@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
-        app:srcCompat="@drawable/supervise" />
+        app:srcCompat="@drawable/network" />
 
     <TextView
         android:id="@+id/textView3"

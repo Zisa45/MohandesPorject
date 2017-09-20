@@ -63,7 +63,6 @@
             android:layout_weight="1"
             android:button="@null"
             android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
-            android:enabled="false"
             android:text="پروژه" />
 
         <CheckBox

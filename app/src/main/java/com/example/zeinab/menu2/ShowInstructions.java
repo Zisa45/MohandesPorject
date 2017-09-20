@@ -24,12 +24,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 
 public class ShowInstructions extends AppCompatActivity {
     DatabaseManager dbm;
     TextView title;
     Instruction inst;
+    String inst_id;
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -55,13 +57,13 @@ public class ShowInstructions extends AppCompatActivity {
 
 
 
-        String ins_id = getIntent().getStringExtra("ins_id");
+        inst_id = getIntent().getStringExtra("ins_id");
         dbm = new DatabaseManager(this);
         inst = new Instruction();
-        inst = dbm.getInstruction(getApplicationContext(),ins_id);
+        inst = dbm.getInstruction(getApplicationContext(),inst_id);
 
         title.setText(inst.title);
-       //Toast.makeText(getApplicationContext(),inst.title+inst.txt, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),inst.title+inst.txt, Toast.LENGTH_LONG).show();
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/B Tehran_YasDL.com.ttf");
 
@@ -151,7 +153,7 @@ public class ShowInstructions extends AppCompatActivity {
                     tab1.setArguments(bundle);
                     return tab1;
                 case 1:
-                   bundle.putStringArrayList("inst_image" , inst.imageName);
+                    bundle.putStringArrayList("inst_image" , inst.imageName);
                     images tab2 = new images();
                     tab2.setArguments(bundle);
                     return tab2;
@@ -160,6 +162,13 @@ public class ShowInstructions extends AppCompatActivity {
                     bundle.putStringArrayList("inst_table" , inst.tableName);
                     tab3.setArguments(bundle);
                     return tab3;
+
+                case 3:
+                    similarAssortment tab4 = new similarAssortment();
+                    ArrayList test = dbm.getSimilarInstruction(inst_id);
+                    bundle.putStringArrayList("similar" , test);
+                    tab4.setArguments(bundle);
+                    return tab4;
                 default:
                     return null;
             }
@@ -167,7 +176,7 @@ public class ShowInstructions extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
@@ -179,6 +188,8 @@ public class ShowInstructions extends AppCompatActivity {
                     return "تصاویر";
                 case 2:
                     return "جداول";
+                case 3:
+                    return " مشابه ها";
             }
             return null;
         }

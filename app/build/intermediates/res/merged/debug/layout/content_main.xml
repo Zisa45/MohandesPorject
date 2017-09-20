@@ -22,7 +22,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:foregroundGravity="center"
-        app:srcCompat="@drawable/supervise"
+        app:srcCompat="@drawable/network"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="103dp" />
 

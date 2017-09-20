@@ -82,7 +82,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -706,7 +706,10 @@
     <string name="search_menu_title">Search</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_add_designer">AddDesigner</string>
+    <string name="title_activity_create_project">CreateProject</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_show_project">ShowProject</string>
     <string name="title_activity_show_standards">ShowStandards</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -717,7 +720,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

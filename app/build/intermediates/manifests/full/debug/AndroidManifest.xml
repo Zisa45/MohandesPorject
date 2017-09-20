@@ -17,7 +17,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/network"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -54,13 +54,51 @@
             android:label="Instruction list"
             android:theme="@style/AppTheme.NoActionBar" />
         >
-        <activity android:name="com.example.zeinab.menu2.InstructionList" />
+        <activity
+            android:name="com.example.zeinab.menu2.InstructionList"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.zeinab.menu2.Search" />
         <activity
             android:name="com.example.zeinab.menu2.ListStandards"
             android:label="Instruction list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.zeinab.menu2.About" />
+        <activity
+            android:name="com.example.zeinab.menu2.CreateProject"
+            android:label="@string/title_activity_create_project"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.project.ObserverList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.DesignerList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.OwnerList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ContractorList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ProjectList"
+            android:label="ProjectList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.ShowProject"
+            android:label="@string/title_activity_show_project"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.AddDesigner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.AddOwner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.AddObserver"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.zeinab.menu2.AddContractor"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

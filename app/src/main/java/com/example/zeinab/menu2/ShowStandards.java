@@ -15,11 +15,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 
 public class ShowStandards extends AppCompatActivity {
     DatabaseManager dbm;
     TextView title;
     Standardclass stn;
+    String ins_id;
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -45,13 +48,13 @@ public class ShowStandards extends AppCompatActivity {
 
 
 
-        String ins_id = getIntent().getStringExtra("ins_id");
+        ins_id = getIntent().getStringExtra("ins_id");
         dbm = new DatabaseManager(this);
         stn = new Standardclass();
         stn = dbm.getStandard(getApplicationContext(),ins_id);
 
         title.setText(stn.title);
-       //Toast.makeText(getApplicationContext(),inst.title+inst.txt, Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),inst.title+inst.txt, Toast.LENGTH_LONG).show();
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/B Tehran_YasDL.com.ttf");
 
@@ -142,7 +145,7 @@ public class ShowStandards extends AppCompatActivity {
                     tab1.setArguments(bundle);
                     return tab1;
                 case 1:
-                   bundle.putStringArrayList("inst_image" , stn.imageName);
+                    bundle.putStringArrayList("inst_image" , stn.imageName);
                     images tab2 = new images();
                     tab2.setArguments(bundle);
                     return tab2;
@@ -151,6 +154,12 @@ public class ShowStandards extends AppCompatActivity {
                     bundle.putStringArrayList("inst_table" , stn.tableName);
                     tab3.setArguments(bundle);
                     return tab3;
+                case 3:
+                    similarAssortment tab4 = new similarAssortment();
+                    ArrayList test = dbm.getSimilarStandard(ins_id);
+                    bundle.putStringArrayList("similar" , test);
+                    tab4.setArguments(bundle);
+                    return tab4;
                 default:
                     return null;
             }
@@ -158,7 +167,7 @@ public class ShowStandards extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
         @Override
@@ -170,6 +179,8 @@ public class ShowStandards extends AppCompatActivity {
                     return "تصاویر";
                 case 2:
                     return "جداول";
+                case 3:
+                    return "مشابه ها";
             }
             return null;
         }

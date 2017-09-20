@@ -13,7 +13,7 @@
         <item
             android:id="@+id/nav_third_layout"
             android:icon="@drawable/ic_border_color_black_48dp"
-            android:title="ایجاد پروژه" />
+            android:title="پروژه ها" />
 
     </group>
 

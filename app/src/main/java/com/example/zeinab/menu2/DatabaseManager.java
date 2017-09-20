@@ -16,11 +16,13 @@ import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 
 public class DatabaseManager extends SQLiteOpenHelper{
 
-    private static final String databaseName = "proDB13.db";
+    private static final String databaseName = "proDB24.db";
     private static final int version = 1;
 
     private static final String instruction_table = "instruction";
@@ -130,6 +132,99 @@ public class DatabaseManager extends SQLiteOpenHelper{
                 ");\n";
         db.execSQL(cQuery);
 
+
+        //phase2
+        cQuery = "CREATE TABLE contractor (\n" +
+                "    contractorId INTEGER      PRIMARY KEY AUTOINCREMENT" +
+                "                              NOT NULL,\n" +
+                "    name         VARCHAR (60) NOT NULL,\n" +
+                "    phoneNumber  NUMERIC      NOT NULL,\n" +
+                "    tel          NUMERIC,\n" +
+                "    fax          NUMERIC,\n" +
+                "    address      TEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+
+        cQuery = "CREATE TABLE owner (\n" +
+                "    ownerId INTEGER           PRIMARY KEY AUTOINCREMENT" +
+                "                              NOT NULL,\n" +
+                "    name         VARCHAR (60) NOT NULL,\n" +
+                "    phoneNumber  NUMERIC      NOT NULL,\n" +
+                "    tel          NUMERIC,\n" +
+                "    fax          NUMERIC,\n" +
+                "    address      TEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+
+        cQuery = "CREATE TABLE designer (\n" +
+                "    designerId INTEGER        PRIMARY KEY AUTOINCREMENT" +
+                "                              NOT NULL,\n" +
+                "    name         VARCHAR (60) NOT NULL,\n" +
+                "    phoneNumber  NUMERIC      NOT NULL,\n" +
+                "    tel          NUMERIC,\n" +
+                "    fax          NUMERIC,\n" +
+                "    address      TEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE observer (\n" +
+                "    observerId INTEGER        PRIMARY KEY AUTOINCREMENT" +
+                "                              NOT NULL,\n" +
+                "    name         VARCHAR (60) NOT NULL,\n" +
+                "    phoneNumber  NUMERIC      NOT NULL,\n" +
+                "    tel          NUMERIC,\n" +
+                "    fax          NUMERIC,\n" +
+                "    address      TEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE project (\n" +
+                "    projectId      INTEGER      PRIMARY KEY AUTOINCREMENT" +
+                "                                NOT NULL,\n" +
+                "    title          NUMERIC,\n" +
+                "    FileNum        NUMERIC,\n" +
+                "    contractNum    NUMERIC,\n" +
+                "    contractorName VARCHAR (60),\n" +
+                "    ownerName      VARCHAR (60),\n" +
+                "    designerName   VARCHAR (60),\n" +
+                "    observerName   VARCHAR (60),\n" +
+                "    address        TEXT,\n" +
+                "    startDate      DATE,\n" +
+                "    endDate        DATE,\n" +
+                "    condition      VARCHAR (20) \n" +
+                ");";
+        db.execSQL(cQuery);
+
+        //for instructions
+        cQuery = "CREATE TABLE iAssortment (\n" +
+                "    assortId INTEGER      PRIMARY KEY AUTOINCREMENT\n" +
+                "                               NOT NULL,\n" +
+                "    title         VARCHAR (30) UNIQUE\n" +
+                ");\n";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE sAssortment (\n" +
+                "    assortId INTEGER      PRIMARY KEY AUTOINCREMENT\n" +
+                "                               NOT NULL,\n" +
+                "    title         VARCHAR (30) UNIQUE\n" +
+                ");\n";
+        db.execSQL(cQuery);
+
+
+        cQuery = "CREATE TABLE [iAssortment-instruction] (\n" +
+                "    assortId       INTEGER REFERENCES iAssortment (assortId),\n" +
+                "    instructionId INTEGER REFERENCES instruction(instructionId) \n" +
+                ");\n";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE [sAssortment-standard] (\n" +
+                "    assortId       INTEGER REFERENCES sAssortment (assortId),\n" +
+                "    standardId INTEGER REFERENCES standard(standardId) \n" +
+                ");\n";
+        db.execSQL(cQuery);
+
         addAll(db);
 
         Log.i("Zeinab", "Tables Created!!");
@@ -235,7 +330,6 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
         //inserting into standards
 
-
         cQuery = "INSERT INTO `standard` VALUES (1,'مقره های سیلیکون رابرازجمله ابزارها و تجهیزاتی هستند که کاربردهای مناسبی را در شبکه توزیع کشور دارند. در مقاله علمی زیر که به وسیله رضا امامی تهیه شده و ویژگیهای مقره های سیلیکون رابر وامتیازات آن مطرح شده است.\n" +
                 "\tتا چندی قبل مقره های کامپوزیت به خاطر نشکن بودن جایگزین مقره های نسل قبل از خود شد، اما رفته رفته در حین بهره برداری خواص مختلفی ازخود نشان داد که باعث شد بازارتقاضا مقره های سیلیکون رابرافزایش چشمگیری پیدا کند.\n" +
                 "\tسیلیکون به خاطر خاصیت منحصر به فردHydrophobic خود قابلیتهای بهتری را در شرایط مختلفی از خود نشان می دهد. پوشش سیلیکون درمقایسه با انواع دیگر مقره های کامپوزیتی مورد استفاده بیشتری قرار گرفته است.\n" +
@@ -274,8 +368,56 @@ public class DatabaseManager extends SQLiteOpenHelper{
                 " (6,2),\n" +
                 " (8,2)";
         db.execSQL(cQuery);
-    }
 
+
+
+
+        //phase2
+        cQuery = "INSERT INTO `owner` (ownerId,name,phoneNumber,tel,fax,address) VALUES (1,'آرش سرحدی',64133,215486,326431,'دانشگاه صنعتی اصفهان'),\n" +
+                " (2,'زهرا آقایی',864531,541331,53133,'')";
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO `observer` (observerId,name,phoneNumber,tel,fax,address) VALUES (1,'سارا رجایی',84513131,51325451,5123321,'خیابان شیخ بهایی'),\n" +
+                " (2,'زینب منتظری',864531,51321354,513313,NULL)";
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO `designer` (designerId,name,phoneNumber,tel,fax,address) VALUES (1,'امیرحسین سروری',6531318,264131543,6453131,'نهران - نبرد'),\n" +
+                " (2,'محسن رهنمایی',6513344,3165431,3215413,NULL)";
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO `contractor` (contractorId,name,phoneNumber,tel,fax,address) VALUES (1,'پریسا حاتم نیا',2164643,268464133,3168431,'اصفهان - بزرگمهر'),\n" +
+                " (2,'نیلوفر غفوری',168463,213684653,3168433,'سپاهان شهر')";
+        db.execSQL(cQuery);
+
+
+
+        //assortments
+
+        cQuery = "INSERT INTO `iAssortment` VALUES (1,'احداث شبکه زمینی'),\n" +
+                " (2,'احداث شبکه هوایی فشارمتوسط')";
+
+
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO [iAssortment-instruction] (assortId,instructionId) VALUES (1,1),\n" +
+                "(1,2),\n" +
+                "(2,3)" ;
+
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO `sAssortment` VALUES (1,'دسته ی اول'),\n" +
+                " (2,'دسته ی دوم')";
+
+
+        db.execSQL(cQuery);
+
+        cQuery = "INSERT INTO [sAssortment-standard] (assortId,standardId) VALUES (1,1),\n" +
+                "(1,2),\n" +
+                "(2,3)" ;
+
+        db.execSQL(cQuery);
+
+    }
 
 
 //    public void insertInstruction(Instruction iIns)throws SQLiteException{
@@ -337,8 +479,16 @@ public class DatabaseManager extends SQLiteOpenHelper{
                 isCur2.moveToFirst();
 
                 gIns.imageName.add(i ,isCur2.getString(0));
+
+                BitmapFactory.Options options = new BitmapFactory.Options();
+                options.inJustDecodeBounds = true;
+                options.inJustDecodeBounds = false;
+                options.inSampleSize = 8;
+
+//                Bitmap  b = BitmapFactory.decodeResource(mContext.getResources(),mContext.getResources().
+//                        getIdentifier(list.get(position), "drawable", mContext.getPackageName()), options);
                 gIns.imageData = BitmapFactory.decodeResource(context.getResources(),context.getResources().
-                        getIdentifier(gIns.imageName.get(i), "drawable", context.getPackageName()));
+                        getIdentifier(gIns.imageName.get(i), "drawable", context.getPackageName()) , options);
 
                 i++;
             }
@@ -398,6 +548,115 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
     }
 
+
+    public ArrayList getAllProjects (){
+
+        ArrayList list = new ArrayList<String>();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select title From project";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                String name = insCur.getString(insCur.getColumnIndex("title"));
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
+
+    public ArrayList getAllContractors (){
+
+        ArrayList list = new ArrayList<String>();
+        String name;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select name From contractor";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                name = insCur.getString(0);
+//                contractor.contractorLastName = insCur.getString(2);
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+    public ArrayList getAllDesigners (){
+
+        ArrayList list = new ArrayList<String>();
+        String name;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select name From designer";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                name = insCur.getString(0);
+//                contractor.contractorLastName = insCur.getString(2);
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
+    public ArrayList getAllOwners (){
+
+        ArrayList list = new ArrayList<String>();
+        String name;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select name From owner";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                name = insCur.getString(0);
+//                contractor.contractorLastName = insCur.getString(2);
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
+    public ArrayList getAllObservers (){
+
+        ArrayList list = new ArrayList<String>();
+        String name;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select name From observer";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                name = insCur.getString(0);
+//                contractor.contractorLastName = insCur.getString(2);
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
     public ArrayList searchOnInstruction(String in){
         ArrayList list = new ArrayList<String>();
         SQLiteDatabase gdb = this.getReadableDatabase();
@@ -432,6 +691,23 @@ public class DatabaseManager extends SQLiteOpenHelper{
         return list;
     }
 
+    public ArrayList searchOnProject(String in){
+        ArrayList list = new ArrayList<String>();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select title from project where title like \"%" + in + "%\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                String name = insCur.getString(0);
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+    }
+
     public int getInstructionId(String title){
 
         SQLiteDatabase gdb = this.getReadableDatabase();
@@ -439,6 +715,18 @@ public class DatabaseManager extends SQLiteOpenHelper{
         Cursor insCur = gdb.rawQuery(gQuery, null);
         if (insCur.moveToFirst())
             return insCur.getInt(insCur.getColumnIndex("instructionId"));
+        else
+            return -1;
+    }
+
+
+    public int getProjectId(String title){
+
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select projectId From project where title =\"" +title+"\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst())
+            return insCur.getInt(insCur.getColumnIndex("projectId"));
         else
             return -1;
     }
@@ -600,6 +888,259 @@ public class DatabaseManager extends SQLiteOpenHelper{
         gdb.close();
         Log.i("Zeinab", "getInstruction");
         return gIns;
+    }
+
+
+
+    public Project getProject (Context context, String projectId){
+
+        Project gPrj = new Project();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+
+        String gQuery = "select * From project where projectId=\"" +projectId+"\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+
+        insCur.moveToFirst();
+        Log.i("Zeinab", "if");
+        gPrj.title = insCur.getString(1);
+        gPrj.fileNum = insCur.getString(2);
+        gPrj.contractNum = insCur.getString(3);
+        gPrj.contractorName = insCur.getString(4);
+        gPrj.ownerName = insCur.getString(5);
+        gPrj.designerName = insCur.getString(6);
+        gPrj.observerName = insCur.getString(7);
+        gPrj.address = insCur.getString(8);
+        gPrj.startDate = insCur.getString(9);
+        gPrj.endDate = insCur.getString(10);
+        gPrj.condition = insCur.getString(11);
+
+
+        gdb.close();
+        Log.i("Zeinab", "getInstruction");
+        return gPrj;
+    }
+    //
+
+
+
+
+
+
+    public void insertProject(Project iPro)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues projectCv = new ContentValues();
+
+        projectCv.put("title", iPro.title);
+        projectCv.put("FileNum", iPro.fileNum);
+        projectCv.put("contractNum", iPro.contractNum);
+        projectCv.put("contractorName", iPro.contractorName);
+        projectCv.put("ownerName", iPro.ownerName);
+        projectCv.put("designerName", iPro.designerName);
+        projectCv.put("observerName", iPro.observerName);
+        projectCv.put("address", iPro.address);
+        projectCv.put("startDate", iPro.startDate);
+        projectCv.put("endDate", iPro.endDate);
+        projectCv.put("condition", iPro.condition);
+
+        idb.insert("project", null, projectCv);
+        idb.close();
+        Log.i("Zeinab", "insertProject!");
+    }
+
+    public void insertDesigner(Superviser iSuper)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues designerCv = new ContentValues();
+
+        designerCv.put("name", iSuper.name);
+        designerCv.put("phoneNumber", iSuper.phoneNumber);
+        designerCv.put("tel", iSuper.tel);
+        designerCv.put("fax", iSuper.fax);
+        designerCv.put("address", iSuper.address);
+
+        idb.insert("designer", null, designerCv);
+        idb.close();
+        Log.i("Zeinab", "insertDesinger!");
+    }
+
+    public void insertOwner(Superviser iSuper)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues ownerCv = new ContentValues();
+
+        ownerCv.put("name", iSuper.name);
+        ownerCv.put("phoneNumber", iSuper.phoneNumber);
+        ownerCv.put("tel", iSuper.tel);
+        ownerCv.put("fax", iSuper.fax);
+        ownerCv.put("address", iSuper.address);
+
+        idb.insert("owner", null, ownerCv);
+        idb.close();
+        Log.i("Zeinab", "insertOwner!");
+    }
+
+    public void insertObserver(Superviser iSuper)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues observerCv = new ContentValues();
+
+        observerCv.put("name", iSuper.name);
+        observerCv.put("phoneNumber", iSuper.phoneNumber);
+        observerCv.put("tel", iSuper.tel);
+        observerCv.put("fax", iSuper.fax);
+        observerCv.put("address", iSuper.address);
+
+        idb.insert("observer", null, observerCv);
+        idb.close();
+        Log.i("Zeinab", "insertObserver!");
+    }
+
+    public void insertContractor(Superviser iSuper)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues contractorCv = new ContentValues();
+
+        contractorCv.put("name", iSuper.name);
+        contractorCv.put("phoneNumber", iSuper.phoneNumber);
+        contractorCv.put("tel", iSuper.tel);
+        contractorCv.put("fax", iSuper.fax);
+        contractorCv.put("address", iSuper.address);
+
+        idb.insert("contractor", null, contractorCv);
+        idb.close();
+        Log.i("Zeinab", "insertContractor!");
+    }
+
+
+    public HashMap joinAssortWithInstruction()
+    {
+        HashMap<String, List<String>> expandableListDetail = new HashMap<String, List<String>>();
+
+        ArrayList list;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select * From iAssortment";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                list = new ArrayList<String>();
+                String name = insCur.getString(insCur.getColumnIndex("title"));
+                String Query = "select title From instruction , [iAssortment-instruction]" +
+                        " where instruction.instructionId = [iAssortment-instruction].instructionId and " +
+                        "[iAssortment-instruction].assortId ="+insCur.getInt(0);;
+                Cursor ins2Cur = gdb.rawQuery(Query, null);
+                if (ins2Cur.moveToFirst())
+                    while (!ins2Cur.isAfterLast())
+                    {
+                        String title = ins2Cur.getString(ins2Cur.getColumnIndex("title"));
+                        list.add(title);
+                        ins2Cur.moveToNext();
+                    }
+
+                expandableListDetail.put(name , list);
+                insCur.moveToNext();
+
+
+            }
+        }
+
+        return expandableListDetail;
+
+
+    }
+
+
+    public ArrayList getSimilarInstruction (String inst_id){
+
+        ArrayList list = new ArrayList<String>();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select assortId From [iAssortment-instruction] where instructionId ="+ Integer.parseInt(inst_id)  ;
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        insCur.moveToFirst();
+        String Query = "select title From instruction , [iAssortment-instruction]" +
+                " where instruction.instructionId = [iAssortment-instruction].instructionId and " +
+                "[iAssortment-instruction].assortId ="+insCur.getInt(0);;
+        Cursor ins2Cur = gdb.rawQuery(Query, null);
+
+        if (ins2Cur.moveToFirst()) {
+            while (!ins2Cur.isAfterLast()) {
+                String name = ins2Cur.getString(ins2Cur.getColumnIndex("title"));
+
+                list.add(name);
+                ins2Cur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
+    public HashMap joinAssortWithStandard()
+    {
+        HashMap<String, List<String>> expandableListDetail = new HashMap<String, List<String>>();
+
+        ArrayList list;
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select * From sAssortment";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                list = new ArrayList<String>();
+                String name = insCur.getString(insCur.getColumnIndex("title"));
+                String Query = "select title From standard , [sAssortment-standard]" +
+                        " where standard.standardId = [sAssortment-standard].standardId and " +
+                        "[sAssortment-standard].assortId ="+insCur.getInt(0);;
+                Cursor ins2Cur = gdb.rawQuery(Query, null);
+                if (ins2Cur.moveToFirst())
+                    while (!ins2Cur.isAfterLast())
+                    {
+                        String title = ins2Cur.getString(ins2Cur.getColumnIndex("title"));
+                        list.add(title);
+                        ins2Cur.moveToNext();
+                    }
+
+                expandableListDetail.put(name , list);
+                insCur.moveToNext();
+
+
+            }
+        }
+
+        return expandableListDetail;
+
+
+    }
+
+
+    public ArrayList getSimilarStandard (String stn_id){
+
+        ArrayList list = new ArrayList<String>();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select assortId From [sAssortment-standard] where standardId ="+ Integer.parseInt(stn_id)  ;
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        insCur.moveToFirst();
+        String Query = "select title From standard , [sAssortment-standard]" +
+                " where standard.standardId = [sAssortment-standard].standardId and " +
+                "[sAssortment-standard].assortId ="+insCur.getInt(0);;
+        Cursor ins2Cur = gdb.rawQuery(Query, null);
+
+        if (ins2Cur.moveToFirst()) {
+            while (!ins2Cur.isAfterLast()) {
+                String name = ins2Cur.getString(ins2Cur.getColumnIndex("title"));
+
+                list.add(name);
+                ins2Cur.moveToNext();
+            }
+        }
+
+        return list;
+
     }
 
 }

@@ -27,13 +27,14 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         FontsOverride.setDefaultFont(this, "MONOSPACE", "fonts/B Tehran_YasDL.com.ttf");
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {y
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, CreateProject.class));
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
-//            }
-//        });
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -89,24 +90,15 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_first_layout) {
             startActivity(new Intent(MainActivity.this, ListStandards.class));
-            //Toast.makeText(getApplicationContext() , "this part is as the same of standards" , Toast.LENGTH_LONG).show();
-//            fragmentManager.beginTransaction()
-//                    .replace(R.id.content_frame, new FirstFragment())
-//                    .commit();
 
         } else if (id == R.id.nav_second_layout) {
-//            fragmentManager.beginTransaction()
-//                    .replace(R.id.content_frame, new SecondFragment())
-//                    .commit();
-
             startActivity(new Intent(MainActivity.this,ListInstructions.class));
 
+        }
+        else if (id == R.id.nav_third_layout) {
+            startActivity(new Intent(MainActivity.this, ProjectList.class));
 
         }
-//        else if (id == R.id.nav_third_layout) {
-//            startActivity(new Intent(MainActivity.this, ScrollingActivity.class));
-//
-//        }
         else if (id == R.id.nav_manage) {
             Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_share) {

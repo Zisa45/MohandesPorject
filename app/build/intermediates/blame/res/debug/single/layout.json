@@ -8,8 +8,16 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_standards.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -24,12 +32,12 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
-        "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_standards.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_standards.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -44,6 +52,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -56,12 +68,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -72,28 +92,32 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
-        "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
+        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -104,28 +128,48 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_scrolling.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_designer_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_designer_list.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\view_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -144,12 +188,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_similar.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_similar.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -160,6 +212,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instruction_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_instruction_list.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_images.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_images.xml"
     },
@@ -168,20 +224,24 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
@@ -202,6 +262,14 @@
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
         "source": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\src\\main\\res\\layout\\third_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_instructions.xml",
@@ -240,16 +308,28 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
@@ -270,6 +350,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -320,11 +404,23 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_create_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_create_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
@@ -332,8 +428,20 @@
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\view_image.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_search.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
@@ -342,6 +450,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_owner_list.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_owner_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -356,16 +468,24 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_designer.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_add_designer.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -384,6 +504,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_custom_big.xml"
     },
@@ -400,8 +524,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tables.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_tables.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_instructions.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -412,12 +544,12 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -430,6 +562,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_instructions.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -446,6 +582,18 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_show_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_show_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -476,6 +624,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -484,12 +636,20 @@
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\list_group.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -512,6 +672,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_standards.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\third_layout.xml"
     },
@@ -532,8 +696,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_project_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_project_list.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_instructions.xml",
@@ -560,6 +732,14 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_project.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_create_project.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_images.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_images.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_images.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_images.xml"
     },
@@ -568,12 +748,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\third_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
@@ -600,12 +788,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_observer_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_observer_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
@@ -622,6 +818,14 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -656,12 +860,24 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_standards.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
         "source": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\src\\main\\res\\layout\\activity_first.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\third_layout.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -696,6 +912,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item.xml"
     },
@@ -720,6 +940,10 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -730,6 +954,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -752,6 +980,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -762,6 +994,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
@@ -776,6 +1012,14 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -786,6 +1030,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scrolling.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -864,8 +1112,20 @@
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_owner.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_add_owner.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -880,6 +1140,18 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_standards.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -888,12 +1160,24 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -928,6 +1212,22 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instruction_list.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_instruction_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -936,8 +1236,16 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_instructions.xml",
@@ -946,6 +1254,14 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_owner_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_owner_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
@@ -988,6 +1304,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -998,6 +1318,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_designer_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_designer_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -1014,6 +1338,14 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -1048,6 +1380,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_first.xml"
     },
@@ -1080,6 +1416,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
@@ -1100,6 +1440,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_instructions.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
     },
@@ -1112,8 +1456,16 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
@@ -1140,6 +1492,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
     },
@@ -1148,8 +1504,16 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_show_standards.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_create_project.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
@@ -1160,8 +1524,16 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_standards.xml",
@@ -1170,6 +1542,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_create_project.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\content_create_project.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -1186,6 +1562,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -1216,6 +1596,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tables.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_tables.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -1224,8 +1608,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -1260,8 +1656,16 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_standards.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_standards.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_standards.xml",
@@ -1300,6 +1704,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_observer.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_add_observer.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -1308,8 +1716,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_observer_list.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_observer_list.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
         "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -1368,6 +1784,14 @@
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -1388,6 +1812,10 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
@@ -1396,8 +1824,20 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_images.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_images.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
@@ -1416,6 +1856,14 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_show_project.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
@@ -1424,12 +1872,28 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\view_image.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
@@ -1440,8 +1904,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
@@ -1452,8 +1924,20 @@
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\view_image.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\first_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scrolling.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_scrolling.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -1462,6 +1946,14 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -1482,6 +1974,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -1520,6 +2016,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -1540,8 +2040,28 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_instructions.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_instructions.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contractor_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_contractor_list.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_image.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\view_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\first_layout.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
@@ -1592,6 +2112,14 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_media.xml"
     },
@@ -1602,6 +2130,14 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_instructions.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_instructions.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -1640,6 +2176,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_scrolling.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_scrolling.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -1668,12 +2208,28 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\second_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_group.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\list_group.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
@@ -1704,8 +2260,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_instructions.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_instructions.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scrolling.xml",
@@ -1720,12 +2288,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_observer_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_observer_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_scrolling.xml",
@@ -1742,6 +2318,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_layout.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\first_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
@@ -1764,8 +2344,20 @@
         "source": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\src\\main\\res\\layout\\first_layout.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -1774,6 +2366,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contractor_list.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_contractor_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
@@ -1792,8 +2388,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scrolling.xml",
@@ -1804,12 +2408,20 @@
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_scrolling.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -1824,12 +2436,28 @@
         "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_show_standards.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_instructions.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\third_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
@@ -1846,6 +2474,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tables.xml",
@@ -1884,6 +2516,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\second_layout.xml",
         "source": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\src\\main\\res\\layout\\second_layout.xml"
     },
@@ -1894,6 +2530,14 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_first.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -1924,8 +2568,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_create_project.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -1972,6 +2624,10 @@
         "source": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_instructions.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
     },
@@ -1988,12 +2644,24 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_instruction_list.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_instruction_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\third_layout.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\third_layout.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -2020,6 +2688,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_create_project.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\content_create_project.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
@@ -2030,6 +2702,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -2044,6 +2720,14 @@
         "source": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\gallery_gridsq.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contractor_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_contractor_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_owner_list.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_owner_list.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
@@ -2054,6 +2738,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_contractor.xml",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_add_contractor.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_gridsq.xml",
@@ -2096,12 +2784,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -2112,12 +2808,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_scrolling.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\content_scrolling.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -2132,8 +2836,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_similar.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_similar.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_standards.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_list_standards.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
@@ -2154,6 +2866,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first.xml",
@@ -2192,6 +2908,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -2202,6 +2922,10 @@
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tables.xml",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\layout\\fragment_tables.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_designer_list.xml",
+        "source": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\src\\main\\res\\layout\\activity_designer_list.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

@@ -69,6 +69,7 @@ public class ProjectList extends AppCompatActivity {
                 intent.putExtra("project_id" ,Integer.toString(project_id));
                 startActivity(intent);
 
+
             }
 
 //            @Override

@@ -92,6 +92,7 @@ public class Search extends Activity {
                             Intent intent = new Intent(getBaseContext(), ShowInstructions.class);
                             intent.putExtra("ins_id" ,Integer.toString(ins_id));
                             startActivity(intent);
+
                         }
 
                         if(staArr.contains(itemValue)){
@@ -99,6 +100,7 @@ public class Search extends Activity {
                             Intent intent = new Intent(getBaseContext(), ShowStandards.class);
                             intent.putExtra("ins_id" ,Integer.toString(ins_id));
                             startActivity(intent);
+
                         }
 
                         if(prArr.contains(itemValue)){
@@ -106,6 +108,7 @@ public class Search extends Activity {
                             Intent intent = new Intent(getBaseContext(), ShowProject.class);
                             intent.putExtra("project_id" ,Integer.toString(ins_id));
                             startActivity(intent);
+
                         }
 
 

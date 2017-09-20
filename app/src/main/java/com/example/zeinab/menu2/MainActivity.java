@@ -1,6 +1,7 @@
 package com.example.zeinab.menu2;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
@@ -31,10 +33,16 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, CreateProject.class));
+
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
             }
         });
+
+        TextView tv = (TextView) findViewById(R.id.txt);
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/B Tehran_YasDL.com.ttf");
+
+        tv.setTypeface(custom_font);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -91,12 +99,15 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_first_layout) {
             startActivity(new Intent(MainActivity.this, ListStandards.class));
 
+
         } else if (id == R.id.nav_second_layout) {
             startActivity(new Intent(MainActivity.this,ListInstructions.class));
+
 
         }
         else if (id == R.id.nav_third_layout) {
             startActivity(new Intent(MainActivity.this, ProjectList.class));
+
 
         }
         else if (id == R.id.nav_manage) {
@@ -105,11 +116,13 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_search) {
             startActivity(new Intent(MainActivity.this, Search.class));
+
             //Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         }
 
         else if (id == R.id.nav_about) {
             startActivity(new Intent(MainActivity.this, About.class));
+
             //Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         }
 

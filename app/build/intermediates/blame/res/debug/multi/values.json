@@ -78115,7 +78115,14 @@
                     "endOffset": 2060
                 },
                 "from": {
-                    "file": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 45,
+                        "endOffset": 324
+                    }
                 }
             },
             {
@@ -78775,14 +78782,7 @@
                     "endOffset": 5709
                 },
                 "from": {
-                    "file": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 330,
-                        "endColumn": 39,
-                        "endOffset": 365
-                    }
+                    "file": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {

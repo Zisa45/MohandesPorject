@@ -67,6 +67,7 @@ public class similarAssortment extends Fragment {
                 intent.putExtra("ins_id" ,Integer.toString(ins_id));
                 startActivity(intent);
 
+
             }
 
 //            @Override

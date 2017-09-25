@@ -12,6 +12,10 @@
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -78,5 +82,9 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     }
 ]

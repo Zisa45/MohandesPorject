@@ -20,7 +20,7 @@
         <View
             android:id="@+id/view"
             android:layout_width="fill_parent"
-            android:layout_height="1dp"
+            android:layout_height="2dp"
             android:background="#c0c0c0" />
 
 
@@ -546,48 +546,59 @@
             android:layout_marginRight="14dp"
             android:orientation="horizontal"
             android:weightSum="1">
-            <EditText
-                android:id="@+id/et_start"
-                android:singleLine="true"
-                android:layout_width="245dp"
+
+            <Button
+                android:id="@+id/startDate_button"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:gravity="right|center_vertical"
-                android:inputType="date"
-                android:hint=""
-                android:padding="10dp"
-                android:textColor="#000000"
-
-                android:textSize="16sp" />
-            <!--<EditText-->
-            <!--android:id="@+id/et_start"-->
-            <!--android:layout_width="136dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_marginLeft="75dp"-->
-            <!--android:ems="10"-->
-            <!--android:gravity="right|center_vertical"-->
-            <!--android:inputType="date"-->
-            <!--android:paddingBottom="5dp"-->
-            <!--android:paddingTop="5dp" />-->
-
-            <TextView
-                android:id="@+id/tv_start"
-                style="@style/texts"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="0dp"
-                android:drawablePadding="0dp"
-                android:foregroundGravity="right"
-                android:gravity="center_vertical"
-                android:paddingBottom="0dp"
-                android:paddingEnd="0dp"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:paddingStart="0dp"
-                android:paddingTop="0dp"
                 android:drawableRight="@drawable/ic_action_calendar_day"
-                android:text="تاریخ شروع" />
+                android:gravity="right|center_vertical"
+                android:hint="تاریخ شروع"
+                android:textDirection="rtl" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/et_start"-->
+                <!--android:singleLine="true"-->
+                <!--android:layout_width="245dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:gravity="right|center_vertical"-->
+                <!--android:inputType="date"-->
+                <!--android:hint=""-->
+                <!--android:padding="10dp"-->
+                <!--android:textColor="#000000"-->
+
+                <!--android:textSize="16sp" />-->
+            <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/et_start"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="136dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="75dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:ems="10"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="right|center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:inputType="date"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingTop="5dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_start"-->
+                <!--style="@style/texts"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_marginLeft="0dp"-->
+                <!--android:drawablePadding="0dp"-->
+                <!--android:foregroundGravity="right"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingBottom="0dp"-->
+                <!--android:paddingEnd="0dp"-->
+                <!--android:paddingLeft="0dp"-->
+                <!--android:paddingRight="0dp"-->
+                <!--android:paddingStart="0dp"-->
+                <!--android:paddingTop="0dp"-->
+                <!--android:drawableRight="@drawable/ic_action_calendar_day"-->
+                <!--android:text="تاریخ شروع" />-->
 
         </LinearLayout>
 
@@ -605,51 +616,67 @@
             android:orientation="horizontal"
             android:weightSum="1">
 
-            <EditText
-                android:id="@+id/et_end"
-                android:singleLine="true"
-                android:layout_width="245dp"
+            <Button
+                android:id="@+id/endDate_button"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
+                android:drawableRight="@drawable/ic_action_calendar_month"
                 android:gravity="right|center_vertical"
-                android:inputType="date"
-                android:hint=""
-                android:padding="10dp"
-                android:textColor="#000000"
-
-                android:textSize="16sp" />
+                android:hint="تاریخ خاتمه"
+                android:textDirection="rtl" />
 
             <!--<EditText-->
-            <!--android:id="@+id/et_end"-->
-            <!--android:layout_width="136dp"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:layout_marginLeft="75dp"-->
-            <!--android:ems="10"-->
-            <!--android:gravity="right|center_vertical"-->
-            <!--android:inputType="date"-->
-            <!--android:paddingBottom="5dp"-->
-            <!--android:paddingTop="5dp" />-->
+                <!--android:id="@+id/et_end"-->
+                <!--android:singleLine="true"-->
+                <!--android:layout_width="245dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:gravity="right|center_vertical"-->
+                <!--android:inputType="date"-->
+                <!--android:hint=""-->
+                <!--android:padding="10dp"-->
+                <!--android:textColor="#000000"-->
 
-            <TextView
-                android:id="@+id/tv_end"
-                style="@style/texts"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="right"
-                android:layout_marginLeft="0dp"
-                android:drawablePadding="0dp"
-                android:foregroundGravity="right"
-                android:gravity="center_vertical"
-                android:paddingBottom="0dp"
-                android:paddingEnd="0dp"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:paddingStart="0dp"
-                android:paddingTop="0dp"
-                android:drawableRight="@drawable/ic_action_calendar_month"
-                android:text="تاریخ خاتمه" />
+                <!--android:textSize="16sp" />-->
+
+            <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/et_end"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="136dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="75dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:ems="10"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="right|center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:inputType="date"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingTop="5dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_end"-->
+                <!--style="@style/texts"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_gravity="right"-->
+                <!--android:layout_marginLeft="0dp"-->
+                <!--android:drawablePadding="0dp"-->
+                <!--android:foregroundGravity="right"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingBottom="0dp"-->
+                <!--android:paddingEnd="0dp"-->
+                <!--android:paddingLeft="0dp"-->
+                <!--android:paddingRight="0dp"-->
+                <!--android:paddingStart="0dp"-->
+                <!--android:paddingTop="0dp"-->
+                <!--android:drawableRight="@drawable/ic_action_calendar_month"-->
+                <!--android:text="تاریخ خاتمه" />-->
 
         </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
 
 
     </LinearLayout>

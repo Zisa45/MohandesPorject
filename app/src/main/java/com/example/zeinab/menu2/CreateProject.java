@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -16,8 +17,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.zeinab.menu2.project.ObserverList;
+import com.mohamadamin.persianmaterialdatetimepicker.date.DatePickerDialog;
+import com.mohamadamin.persianmaterialdatetimepicker.utils.PersianCalendar;
 
-public class CreateProject extends AppCompatActivity {
+public class CreateProject extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
     TextView tvObserver;
     TextView tvObserverName;
@@ -29,7 +32,12 @@ public class CreateProject extends AppCompatActivity {
     TextView tvContractorName;
     ImageButton ibAddContractor, ibAddDesigner, ibAddOwner, ibAddObserver;
     DatabaseManager dbm;
+    Boolean flagDate;
 
+    private static final String TIMEPICKER = "TimePickerDialog",
+            DATEPICKER = "DatePickerDialog", MULTIDATEPICKER = "MultiDatePickerDialog";
+    private Button timeButton, dateButton, etEnd;
+    Button startDateBtn;
     String observerName, designerName, ownerName, contractorName;
     String title, fileNum, contractNum, address, end, start, condition;
     SharedPreferences prefs;
@@ -37,10 +45,12 @@ public class CreateProject extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_project);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         editor = prefs.edit();
@@ -49,8 +59,8 @@ public class CreateProject extends AppCompatActivity {
         final EditText etFileNum = (EditText) findViewById(R.id.et_fileNum);
         final EditText etContractNum = (EditText) findViewById(R.id.et_contractNum);
         final EditText etAddress = (EditText) findViewById(R.id.et_address);
-        final EditText etStart = (EditText) findViewById(R.id.et_start);
-        final EditText etEnd = (EditText) findViewById(R.id.et_end);
+//        final EditText etStart = (EditText) findViewById(R.id.et_start);
+//        final EditText etEnd = (EditText) findViewById(R.id.et_end);
         final CheckBox cbCurrent = (CheckBox) findViewById(R.id.cb_current);
         final CheckBox cbStoped = (CheckBox) findViewById(R.id.cb_stoped);
         final CheckBox cbFinished = (CheckBox) findViewById(R.id.cb_finished);
@@ -58,6 +68,44 @@ public class CreateProject extends AppCompatActivity {
         ibAddDesigner = (ImageButton) findViewById(R.id.addDesigner);
         ibAddObserver = (ImageButton) findViewById(R.id.addObserver);
         ibAddOwner = (ImageButton) findViewById(R.id.addOwner);
+
+        dateButton = (Button) findViewById(R.id.startDate_button);
+//        startDateBtn = (Button) findViewById(R.id.startDate_button);
+//        PersianCalendar now = new PersianCalendar();
+//        dateButton.setText(now.getPersianLongDate());
+        etEnd = (Button) findViewById(R.id.endDate_button);
+
+        dateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flagDate = false;//onStart
+                PersianCalendar now = new PersianCalendar();
+                DatePickerDialog dpd = DatePickerDialog.newInstance(
+                        CreateProject.this,
+                        now.getPersianYear(),
+                        now.getPersianMonth(),
+                        now.getPersianDay()
+                );
+
+                dpd.show(getFragmentManager(), DATEPICKER);
+            }
+        });
+
+        etEnd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flagDate = true;//onEnd
+                PersianCalendar now = new PersianCalendar();
+                DatePickerDialog dpd = DatePickerDialog.newInstance(
+                        CreateProject.this,
+                        now.getPersianYear(),
+                        now.getPersianMonth(),
+                        now.getPersianDay()
+                );
+
+                dpd.show(getFragmentManager(), DATEPICKER);
+            }
+        });
 
         cbCurrent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +151,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -140,7 +189,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -177,7 +227,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -214,7 +265,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -257,7 +309,8 @@ public class CreateProject extends AppCompatActivity {
         etContractNum.setText(contractNum);
         etAddress.setText(address);
         etEnd.setText(end);
-        etStart.setText(start);
+//        etStart.setText(start);
+        dateButton.setText(start);
         etTitle.setText(title);
 
         if (condition == "current"){
@@ -279,7 +332,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -318,7 +372,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -357,7 +412,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -396,7 +452,8 @@ public class CreateProject extends AppCompatActivity {
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -481,12 +538,15 @@ public class CreateProject extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String start = dateButton.getText().toString();
+
                 title = etTitle.getText().toString();
                 fileNum = etFileNum.getText().toString();
                 contractNum = etContractNum.getText().toString();
                 address = etAddress.getText().toString();
                 end = etEnd.getText().toString();
-                start = etStart.getText().toString();
+//                start = etStart.getText().toString();
+                start = dateButton.getText().toString();
                 condition = "";
                 if (cbCurrent.isChecked()){
                     condition = "current";
@@ -625,4 +685,46 @@ public class CreateProject extends AppCompatActivity {
 //        super.onBackPressed();
     }
 
+    @Override
+    public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
+        // Note: monthOfYear is 0-indexed
+        String Month = null;
+
+        if(monthOfYear ==0)
+            Month = "فروردین";
+        if(monthOfYear ==1)
+            Month = "ردیبهشت";
+        if(monthOfYear ==2)
+            Month = "خرداد";
+
+        if(monthOfYear ==3)
+            Month = "تیر";
+        if(monthOfYear ==4)
+            Month = "مرداد";
+        if(monthOfYear ==5)
+            Month = "شهریور";
+
+        if(monthOfYear ==6)
+            Month = "مهر";
+        if(monthOfYear ==7)
+            Month = "آبان";
+        if(monthOfYear ==8)
+            Month = "آذر";
+
+        if(monthOfYear ==9)
+            Month = "دی";
+        if(monthOfYear ==10)
+            Month = "بهمن";
+        if(monthOfYear ==11)
+            Month = "اسفند";
+
+        String date =  dayOfMonth + " " + Month + " " +  year;
+        view.getSelectedDay();
+
+        if (flagDate == false)
+            dateButton.setText(date);
+        else if (flagDate == true)
+            etEnd.setText(date);
+
+    }
 }

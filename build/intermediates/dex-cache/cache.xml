@@ -2,22 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\sara\Desktop\mohandesproject2\MohandesPorject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\88c231d85e40cda4fe853cfd522bd764a5417271\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\sara\Desktop\mohandesproject2\MohandesPorject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_958423e0c111cc43bbd842e6873ada21043d220e\classes.dex" />
+        sha1="40db7bc029c1344cfe2e16200a009043f6561d75">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_49ac48eda2a08a493c06043051a01ad2d026c0fb.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\sara\Desktop\mohandesproject2\MohandesPorject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\8b731914db8b849e66940b34d292c8cc77891907\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="fb174db48e344111412168e98c34b2394bb823cc">
-        <dex dex="C:\Users\sara\Desktop\mohandesproject2\MohandesPorject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6d2c45517199bf5054bb11b24c2d478cffa2336e\classes.dex" />
+        sha1="0c6924cbba8248329a8c58ead6a380efe7eee76e">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_005adfe06f61f987c29d852410bcacca17a2d66e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_794a2f13e5afea21c3e80bea925e7d5dcefb194f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\5aede20e0b44073ab7a947447519f17c6bc5545a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cf5f630e354827a90ffe90ce2a330495108f0595">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_5cdab2c7783ae3f08c6bfc37aa1a9b38722f1914.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\c2009b2aa17ce88a812cf19ea7f2455d34248151\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_f6e2e1973639ea6928964e664d5d2274b77443fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.android\build-cache\dca11ca6ce9d8476d6d40f74cf3fd757bca9d243\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-akharayeTabestun (2)\MohandesPorject\app\build\intermediates\pre-dexed\debug\classes_41cf85cc6938009c7bce43189575d2f4f68ce326.jar" />
     </item>
 
 </items>

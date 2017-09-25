@@ -103,4 +103,6 @@
     <string name="title_activity_create_project">CreateProject</string>
     <string name="title_activity_show_project">ShowProject</string>
     <string name="title_activity_add_designer">AddDesigner</string>
+    <string name="title_activity_edit_project">EditProject</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

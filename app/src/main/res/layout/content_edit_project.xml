@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeinab.menu2.EditProject"
+    tools:showIn="@layout/activity_edit_project">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layoutDirection="ltr">
+
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+
+            <EditText
+                android:id="@+id/et_title"
+                android:singleLine="true"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="text"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_title"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="text"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_folder_open"
+                android:text="عنوان پروژه" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <EditText
+                android:id="@+id/et_fileNum"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:hint=""
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+            <!--<EditText-->
+            <!--android:id="@+id/et_fileNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_fileNum"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:text="شماره پرونده" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_contractNum"
+                android:singleLine="true"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="number"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_contractNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_contractNum"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:text="شماره قرارداد" />
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb_finished"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="خاتمه" />
+
+                <CheckBox
+                    android:id="@+id/cb_stoped"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="متوقف" />
+
+                <CheckBox
+                    android:id="@+id/cb_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="جاری" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_condition"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_star_10"
+                android:text="وضعیت" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/addContractor"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:id="@+id/tv_contractorName"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:ems="10"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/tv_contractor"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_user"
+                android:text="پیمانکار" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/addOwner"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:id="@+id/tv_ownerName"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:ems="10"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/tv_owner"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_user"
+                android:text="مالک" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/addDesigner"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:id="@+id/tv_designerName"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:ems="10"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/tv_designer"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_user"
+                android:text="طراح" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/addObserver"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/ic_input_add" />
+
+            <TextView
+                android:id="@+id/tv_observerName"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:ems="10"
+                android:gravity="right|center_vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/tv_observer"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_user"
+                android:text="ناظر" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/et_address"
+                android:singleLine="true"
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="text"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_address"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="text"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_location"
+                android:text="آدرس" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/startDate_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/ic_action_calendar_day"
+                android:gravity="right|center_vertical"
+                android:hint="تاریخ شروع"
+                android:textDirection="rtl" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_start"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_width="245dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="date"-->
+            <!--android:hint=""-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#000000"-->
+
+            <!--android:textSize="16sp" />-->
+            <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/et_start"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="136dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="75dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:ems="10"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="right|center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:inputType="date"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingTop="5dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_start"-->
+            <!--style="@style/texts"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:drawablePadding="0dp"-->
+            <!--android:foregroundGravity="right"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingBottom="0dp"-->
+            <!--android:paddingEnd="0dp"-->
+            <!--android:paddingLeft="0dp"-->
+            <!--android:paddingRight="0dp"-->
+            <!--android:paddingStart="0dp"-->
+            <!--android:paddingTop="0dp"-->
+            <!--android:drawableRight="@drawable/ic_action_calendar_day"-->
+            <!--android:text="تاریخ شروع" />-->
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/endDate_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/ic_action_calendar_month"
+                android:gravity="right|center_vertical"
+                android:hint="تاریخ خاتمه"
+                android:textDirection="rtl" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/et_end"-->
+            <!--android:singleLine="true"-->
+            <!--android:layout_width="245dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="date"-->
+            <!--android:hint=""-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#000000"-->
+
+            <!--android:textSize="16sp" />-->
+
+            <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/et_end"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="136dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="75dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:ems="10"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="right|center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:inputType="date"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingBottom="5dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingTop="5dp" />&ndash;&gt;-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_end"-->
+            <!--style="@style/texts"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:drawablePadding="0dp"-->
+            <!--android:foregroundGravity="right"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingBottom="0dp"-->
+            <!--android:paddingEnd="0dp"-->
+            <!--android:paddingLeft="0dp"-->
+            <!--android:paddingRight="0dp"-->
+            <!--android:paddingStart="0dp"-->
+            <!--android:paddingTop="0dp"-->
+            <!--android:drawableRight="@drawable/ic_action_calendar_month"-->
+            <!--android:text="تاریخ خاتمه" />-->
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

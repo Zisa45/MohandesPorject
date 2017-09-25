@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.zeinab.menu2.createVisit"
+    tools:showIn="@layout/activity_show_visit">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/date_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/ic_action_calendar_day"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:textDirection="rtl"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+
+            <TextView
+                android:id="@+id/et_title"
+                android:singleLine="true"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="text"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_folder_open"
+                android:text="عنوان بازدید" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/et_fileNum"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:hint=""
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+            <!--<EditText-->
+            <!--android:id="@+id/et_fileNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_fileNum"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:text="شماره پرونده" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/et_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+
+                android:hint="توضیحات"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+
+
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_action_location"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="80dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_action_folder_open"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="80dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            >
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="9dp"
+                android:horizontalSpacing="9dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                />
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:id="@+id/image"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

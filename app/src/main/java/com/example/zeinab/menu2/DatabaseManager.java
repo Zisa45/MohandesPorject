@@ -22,7 +22,7 @@ import java.util.List;
 
 public class DatabaseManager extends SQLiteOpenHelper{
 
-    private static final String databaseName = "proDB24.db";
+    private static final String databaseName = "proDB25.db";
     private static final int version = 1;
 
     private static final String instruction_table = "instruction";
@@ -222,6 +222,29 @@ public class DatabaseManager extends SQLiteOpenHelper{
         cQuery = "CREATE TABLE [sAssortment-standard] (\n" +
                 "    assortId       INTEGER REFERENCES sAssortment (assortId),\n" +
                 "    standardId INTEGER REFERENCES standard(standardId) \n" +
+                ");\n";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE createvisit (\n" +
+                "\t`visitId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "\t`projectId`\tINTEGER,\n" +
+                "\t`title`\tTEXT,\n" +
+                "\t`text`\tTEXT,\n" +
+                "\t`FileNum`\tNUMERIC,\n" +
+                "\t`location`\tTEXT,\n" +
+                "\t`Date`\tTEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE vImage (\n" +
+                "\t`imageId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "\t`image`\tBLOB\n" +
+                ");";
+        db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE [createVisit-vImage] (\n" +
+                "    visitId       INTEGER REFERENCES createVisit (visitId),\n" +
+                "    imageId INTEGER REFERENCES vImage(ImageId) \n" +
                 ");\n";
         db.execSQL(cQuery);
 
@@ -926,6 +949,30 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
 
 
+    public void updateProject(Project iPro, String projectId)throws SQLiteException{
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues projectCv = new ContentValues();
+
+        projectCv.put("title", iPro.title);
+        projectCv.put("FileNum", iPro.fileNum);
+        projectCv.put("contractNum", iPro.contractNum);
+        projectCv.put("contractorName", iPro.contractorName);
+        projectCv.put("ownerName", iPro.ownerName);
+        projectCv.put("designerName", iPro.designerName);
+        projectCv.put("observerName", iPro.observerName);
+        projectCv.put("address", iPro.address);
+        projectCv.put("startDate", iPro.startDate);
+        projectCv.put("endDate", iPro.endDate);
+        projectCv.put("condition", iPro.condition);
+
+//        idb.insert("project", null, projectCv);
+        idb.update("project", projectCv, "projectId="+projectId, null);
+        idb.close();
+        Log.i("Zeinab", "insertProject!");
+    }
+
     public void insertProject(Project iPro)throws SQLiteException{
 
         Log.i("Zeinab", "Enter!");
@@ -1142,5 +1189,147 @@ public class DatabaseManager extends SQLiteOpenHelper{
         return list;
 
     }
+
+    public void insertVisit(visit visit) throws SQLiteException {
+
+        Log.i("Zeinab", "Enter!");
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues visitCv = new ContentValues();
+        ContentValues imageCv = new ContentValues();
+        ContentValues foriegnCv = new ContentValues();
+
+        visitCv.put("Date", visit.date);
+        visitCv.put("title", visit.title);
+        visitCv.put("FileNum", visit.fileNum);
+        visitCv.put("text", visit.text);
+        visitCv.put("projectId", 1);
+
+        if (visit.location != null)
+            visitCv.put("location", visit.location);
+
+        String Query = "SELECT visitId \n" +
+                "    FROM    createVisit\n" +
+                "    WHERE   visitId = (SELECT MAX(visitId)  FROM createVisit);";
+        ;
+        Cursor insCur = gdb.rawQuery(Query, null);
+        insCur.moveToFirst();
+
+
+        for (int i = 0; i < visit.images.size(); i++) {
+            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+            visit.images.get(i).compress(Bitmap.CompressFormat.PNG, 0, stream);
+            imageCv.put("image", stream.toByteArray());
+            idb.insert("vImage", null, imageCv);
+
+            String Query2 = "SELECT imageId \n" +
+                    "    FROM    vImage\n" +
+                    "    WHERE   imageId = (SELECT MAX(imageId)  FROM vImage);";
+            ;
+            Cursor ins2Cur = gdb.rawQuery(Query2, null);
+            ins2Cur.moveToFirst();
+
+            if (insCur.getCount() == 0)
+                foriegnCv.put("visitId", 1);
+            else
+                foriegnCv.put("visitId", insCur.getInt(0) + 1);
+
+            foriegnCv.put("imageId", ins2Cur.getInt(0));
+
+            idb.insert("[createVisit-vImage]", null, foriegnCv);
+
+
+        }
+
+
+        idb.insert("createVisit", null, visitCv);
+        idb.close();
+        Log.i("Zeinab", "insertProject!");
+    }
+
+    public ArrayList getAllvisits() {
+
+        ArrayList list = new ArrayList<String>();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select title From createVisit where projectId = 1";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst()) {
+            while (!insCur.isAfterLast()) {
+                String name = insCur.getString(insCur.getColumnIndex("title"));
+
+                list.add(name);
+                insCur.moveToNext();
+            }
+        }
+
+        return list;
+
+    }
+
+
+    public int getVisitId(String title) {
+
+        SQLiteDatabase gdb = this.getReadableDatabase();
+        String gQuery = "select visitId From createVisit where title =\"" + title + "\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+        if (insCur.moveToFirst())
+            return insCur.getInt(insCur.getColumnIndex("visitId"));
+        else
+            return -1;
+    }
+
+    public visit getVisit(Context context, String visitId) {
+        byte[] image;
+
+        Integer imgId;
+        visit gIns = new visit();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+
+        String gQuery = "select * From createVisit where visitId=\"" + visitId + "\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+
+
+        insCur.moveToFirst();
+        Log.i("Zeinab", "if");
+        gIns.date = insCur.getString(insCur.getColumnIndex("Date"));
+        gIns.title = insCur.getString(insCur.getColumnIndex("title"));
+        gIns.fileNum = insCur.getString(insCur.getColumnIndex("FileNum"));
+        gIns.text = insCur.getString(insCur.getColumnIndex("text"));
+        gIns.location = insCur.getString(insCur.getColumnIndex("location"));
+
+        String imageIdQuery = "select imageId from [createVisit-vImage] where visitId =\"" + visitId + "\"";
+        Cursor isCur = gdb.rawQuery(imageIdQuery, null);
+        gIns.images = new ArrayList<Bitmap>();
+        int i = 0;
+        do {
+            isCur.moveToFirst();
+
+
+            Log.i("sara", "while");
+            imgId = isCur.getInt(isCur.getColumnIndex("imageId"));
+
+            String imageNameQuery = "select image from vImage where imageId = " + imgId;
+            Cursor isCur2 = gdb.rawQuery(imageNameQuery, null);
+            isCur2.moveToFirst();
+
+            image = isCur2.getBlob(isCur2.getColumnIndex("image"));
+            Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length);
+
+            gIns.images.add(i, bmp);
+
+
+            i++;
+        }
+
+        while (isCur.moveToNext()) ;
+
+
+
+
+        return gIns;
+
+    }
+
+
 
 }

@@ -4,6 +4,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_done_text_color.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_done_text_color.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
@@ -80,16 +84,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_date_picker_year_selector.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_date_picker_year_selector.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
@@ -128,44 +136,56 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_done_text_color_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_done_text_color_dark.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
@@ -184,12 +204,12 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -204,12 +224,12 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -220,6 +240,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
@@ -228,12 +252,12 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -244,28 +268,32 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -300,6 +328,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
@@ -308,12 +340,12 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
@@ -337,6 +369,10 @@
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
@@ -374,6 +410,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
@@ -416,12 +456,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
@@ -440,8 +488,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
@@ -450,6 +510,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
@@ -482,6 +546,10 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -536,12 +604,20 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\Desktop\\mo\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -624,6 +700,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_error.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
@@ -660,6 +740,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_date_picker_year_selector.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_date_picker_year_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_search_url_text.xml"
     },
@@ -678,6 +762,22 @@
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_date_picker_selector.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_date_picker_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_date_picker_selector.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_date_picker_selector.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
@@ -760,8 +860,16 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_done_text_color_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_done_text_color_dark.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
@@ -788,6 +896,10 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\mdtp_done_text_color.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\88c231d85e40cda4fe853cfd522bd764a5417271\\output\\res\\color\\mdtp_done_text_color.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_tint_password_toggle.xml"
     },
@@ -800,12 +912,20 @@
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_default.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\mohandesproject2\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -824,12 +944,24 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_error.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-akharayeTabestun (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\zeinab\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2) (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\fa5df5d02943c7e8707ad3e9a8c95d52d57d0a6b\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode (2)\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
@@ -848,6 +980,10 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesPro-akharayeTabestun\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_tint_switch_track.xml"
     },
@@ -856,11 +992,19 @@
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_error.xml"
     },
     {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\c4d0f0721cd1b44154171919cef4e2b79d63aae0\\output\\res\\color\\design_error.xml"
+    },
+    {
         "merged": "C:\\Users\\sara\\Desktop\\MohandesProjectAkharinChizi ke dorost boooode\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\sara\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\zeinab\\AndroidStudioProjects\\Menu2\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\zeinab\\Desktop\\MohandesPro-Mehr\\MohandesPorject\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "C:\\Users\\zeinab\\.android\\build-cache\\eb0b27d7c23f1c1d7c704a0695d94ba2cc048cf4\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {

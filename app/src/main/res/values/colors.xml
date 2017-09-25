@@ -6,4 +6,6 @@
     <color name="colorPrimaryDark">#5abc4b</color>
     <color name="colorAccent">#ff4081</color>
     <color name="white">#ffffff</color>
+    <color name="mdtp_accent_color">#5abc4b</color>
+    <color name="mdtp_accent_color_dark">#5abc4b</color>
 </resources>

@@ -114,7 +114,7 @@
             android:name="com.example.zeinab.menu2.EditProject"
             android:label="@string/title_activity_edit_project"
             android:theme="@style/AppTheme.NoActionBar" />
-‍‍
+        ‍‍
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -128,6 +128,7 @@
         <activity
             android:name="com.example.zeinab.menu2.createVisit"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.zeinab.menu2.Export" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

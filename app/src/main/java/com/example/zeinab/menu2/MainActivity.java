@@ -3,6 +3,7 @@ package com.example.zeinab.menu2;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -17,6 +18,8 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -27,6 +30,13 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //create directory
+        File exst = Environment.getExternalStorageDirectory();
+        String exstPath = exst.getPath();
+        File dir = new File(exstPath+"/"+"اندیشمند نظارت");
+        boolean success = dir.mkdir();
+
         FontsOverride.setDefaultFont(this, "MONOSPACE", "fonts/B Tehran_YasDL.com.ttf");
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -121,8 +131,8 @@ public class MainActivity extends AppCompatActivity
         }
 
         else if (id == R.id.nav_about) {
-            startActivity(new Intent(MainActivity.this, About.class));
-
+//            startActivity(new Intent(MainActivity.this, About.class));
+            startActivity(new Intent(MainActivity.this, Export.class));
             //Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         }
 

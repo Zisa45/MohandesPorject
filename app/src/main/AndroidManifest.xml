@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zeinab.menu2">
 
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -96,8 +95,8 @@
         <activity
             android:name=".EditProject"
             android:label="@string/title_activity_edit_project"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-‍‍
+            android:theme="@style/AppTheme.NoActionBar" />
+        ‍‍
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -107,12 +106,11 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".listVisits" />
         <activity android:name=".ShowVisit" />
-        <activity android:name=".gallery"></activity>
+        <activity android:name=".gallery" />
         <activity
             android:name=".createVisit"
             android:theme="@style/AppTheme.NoActionBar" />
-
-
+        <activity android:name=".Export"></activity>
     </application>
 
 </manifest>

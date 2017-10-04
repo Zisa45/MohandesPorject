@@ -915,6 +915,28 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
 
 
+    public Cursor getProjectExport (String projectId){
+
+        Project gPrj = new Project();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+
+        String gQuery = "select * From project where projectId=\"" +projectId+"\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+
+        return insCur;
+    }
+
+    public Cursor getVisitExport (String projectId){
+
+        visit gVst = new visit();
+        SQLiteDatabase gdb = this.getReadableDatabase();
+
+        String gQuery = "select * From createvisit where projectId=\"" +projectId+"\"";
+        Cursor insCur = gdb.rawQuery(gQuery, null);
+
+        return insCur;
+    }
+
     public Project getProject (Context context, String projectId){
 
         Project gPrj = new Project();
@@ -970,7 +992,17 @@ public class DatabaseManager extends SQLiteOpenHelper{
 //        idb.insert("project", null, projectCv);
         idb.update("project", projectCv, "projectId="+projectId, null);
         idb.close();
-        Log.i("Zeinab", "insertProject!");
+        Log.i("Zeinab", "updateProject!");
+    }
+
+    public void deleteProject (String projectId){
+        SQLiteDatabase idb = this.getWritableDatabase();
+        ContentValues projectCv = new ContentValues();
+
+        idb.delete("project", "projectId = ?", new String[] { projectId });
+//        idb.update("project", projectCv, "projectId="+projectId, null);
+        idb.close();
+        Log.i("Zeinab", "deleteProject!");
     }
 
     public void insertProject(Project iPro)throws SQLiteException{

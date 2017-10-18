@@ -9,6 +9,10 @@
         android:title="خروجی" />
 
     <item
+        android:id="@+id/backup"
+        android:title="پشتیبانی گیری" />
+
+    <item
         android:id="@+id/addFavorite"
         android:title="مورد علاقه" />
 

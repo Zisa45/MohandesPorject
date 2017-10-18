@@ -2,9 +2,12 @@ package com.example.zeinab.menu2;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.os.Environment;
 import android.support.v7.app.AlertDialog;
@@ -31,6 +34,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -46,14 +50,24 @@ import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
 
+import com.dropbox.core.DbxApiException;
+import com.dropbox.core.DbxException;
+import com.dropbox.core.DbxRequestConfig;
+import com.dropbox.core.v2.DbxClientV2;
+import com.dropbox.core.v2.users.FullAccount;
+
 public class ProjectList extends AppCompatActivity {
+
     ListView listView ;
     DatabaseManager dbm;
+    private String ACCESS_TOKEN;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_project_list);
+
+        ACCESS_TOKEN = retrieveAccessToken();
 
         Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/B Zar_YasDL.com.ttf");
         // Get ListView object from xml
@@ -168,7 +182,7 @@ public class ProjectList extends AppCompatActivity {
                                                 String  itemValue    = (String) listView.getItemAtPosition(position);
 
                                                 int project_id =dbm.getProjectId(itemValue);
-                                                export(project_id, userinputResult);
+                                                File temp = export(project_id, userinputResult);
 //                                                Intent intent = new Intent(getBaseContext(), Export.class);
 //                                                intent.putExtra("project_id" ,Integer.toString(project_id));
 //                                                intent.putExtra("file_name", userinputResult);
@@ -228,9 +242,45 @@ public class ProjectList extends AppCompatActivity {
                                         });
 
                                 dAlert.show();
+                                break;
 
+
+                            case R.id.backup:
+
+                                AlertDialog.Builder balert = new AlertDialog.Builder(ProjectList.this);
+                                balert.setMessage("نام فایل خروجی را وارد کنید.");
+
+                                final EditText binput = new EditText(ProjectList.this);
+                                LinearLayout.LayoutParams blp = new LinearLayout.LayoutParams(
+                                        LinearLayout.LayoutParams.MATCH_PARENT,
+                                        LinearLayout.LayoutParams.MATCH_PARENT);
+                                binput.setLayoutParams(blp);
+                                balert.setView(binput);
+
+                                balert.setPositiveButton("تایید",
+                                        new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog,int id) {
+
+                                                String userinputResult = binput.getText().toString();
+                                                String  itemValue    = (String) listView.getItemAtPosition(position);
+                                                int project_id =dbm.getProjectId(itemValue);
+
+                                                backup(project_id, userinputResult);
+                                            }
+                                        });
+
+                                balert.setNegativeButton("انصراف",
+                                        new DialogInterface.OnClickListener() {
+                                            public void onClick(DialogInterface dialog,
+                                                                int id) {
+                                                dialog.cancel();
+                                            }
+                                        });
+                                balert.show();
 
                                 break;
+
+
                             case R.id.addFavorite:
                                 Toast.makeText(getApplicationContext(), "your desire action is " + item.toString(), Toast.LENGTH_SHORT).show();
                                 break;
@@ -242,17 +292,41 @@ public class ProjectList extends AppCompatActivity {
                     }
                 });
 
-
                 return true;
             }
         });
 
     }
 
+    private void backup(Integer projectId, String file_name) {
+        if (ACCESS_TOKEN == null)return;
+
+//        File sd = Environment.getExternalStorageDirectory();
+//        String csvFile = "zizi" + ".xls";
+//        File directory = new File(sd.getAbsolutePath());
+
+        File file = export(projectId, file_name);
+        new UploadTask(DropboxClient.getClient(ACCESS_TOKEN), file, getApplicationContext()).execute();
+    }
+
+    private String retrieveAccessToken() {
+        //check if ACCESS_TOKEN is stored on previous app launches
+        SharedPreferences prefs = getSharedPreferences("com.example.valdio.dropboxintegration", Context.MODE_PRIVATE);
+        String accessToken = prefs.getString("access-token", null);
+        if (accessToken == null) {
+            Log.d("AccessToken Status", "No token found");
+            return null;
+        } else {
+            //accessToken already exists
+            Log.d("AccessToken Status", "Token exists");
+            return accessToken;
+        }
+    }
 
 
 
-    void export(Integer projectId, String file_name){
+
+    File export(Integer projectId, String file_name){
 
         DatabaseManager dbm;
         Project prj;
@@ -266,15 +340,25 @@ public class ProjectList extends AppCompatActivity {
 ////////////
         File sd1 = Environment.getExternalStorageDirectory();
         String exstPath1 = sd1.getPath();
+        String dir1 = exstPath1+"/"+"اندیشمند نظارت";
 
         String []s=new String[2]; //declare an array for storing the files i.e the path of your source files
         s[0]=exstPath1 + "/12.xls";    //Type the path of the files in here
         s[1]=exstPath1 + "/a.xls"; // path of the second file
 
-        zip(s,exstPath1+"/MyZipFolder.zip");    //call the zip function
+
+//        Bitmap bitmap;
+//        File file = new File("path");
+//        OutputStream os = new BufferedOutputStream(new FileOutputStream(file));
+//        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, os);
+//        os.close();
+
+
+        zip(s,dir1+"/MyZipFolder.zip");    //call the zip function
 ///////////
         //old
-        final Cursor cursor = dbm.getProjectExport(project_id);
+        final Cursor prCursor = dbm.getProjectExport(project_id);
+        final Cursor viCursor = dbm.getVisitExport(project_id);
 
 
         File sd = Environment.getExternalStorageDirectory();
@@ -298,58 +382,67 @@ public class ProjectList extends AppCompatActivity {
             //Excel sheet name. 0 represents first sheet
             WritableSheet sheet = workbook.createSheet(prj.title, 0);
             // column and row
-            sheet.addCell(new Label(0, 0, "عنوان پروژه"));
+            sheet.addCell(new Label(0, 0, "عنوان بازدید"));
             sheet.addCell(new Label(1, 0, "شماره پرونده"));
-            sheet.addCell(new Label(2, 0, "شماره قرارداد"));
-            sheet.addCell(new Label(3, 0, "شماره وضعیت"));
-            sheet.addCell(new Label(4, 0, "پیمانکار"));
-            sheet.addCell(new Label(5, 0, "مالک"));
-            sheet.addCell(new Label(6, 0, "طراح"));
-            sheet.addCell(new Label(7, 0, "ناظر"));
-            sheet.addCell(new Label(8, 0, "آدرس"));
-            sheet.addCell(new Label(9, 0, "تاریخ شروع"));
-            sheet.addCell(new Label(10, 0, "تاریخ خاتمه"));
-
-            if (cursor.moveToFirst()) {
+            sheet.addCell(new Label(2, 0, "توضیحات"));
+            sheet.addCell(new Label(3, 0, "تاریخ بازدید"));
+            sheet.addCell(new Label(4, 0, "شماره قرارداد"));
+            sheet.addCell(new Label(5, 0, "شماره وضعیت"));
+            sheet.addCell(new Label(6, 0, "پیمانکار"));
+            sheet.addCell(new Label(7, 0, "مالک"));
+            sheet.addCell(new Label(8, 0, "طراح"));
+            sheet.addCell(new Label(9, 0, "ناظر"));
+            sheet.addCell(new Label(10, 0, "آدرس"));
+            sheet.addCell(new Label(11, 0, "تاریخ شروع پروژه"));
+            sheet.addCell(new Label(12, 0, "تاریخ خاتمه پروژه"));
+            prCursor.moveToFirst();
+            if (viCursor.moveToFirst()) {
                 do {
-                    String title = cursor.getString(cursor.getColumnIndex("title"));
-                    String fileNum = cursor.getString(cursor.getColumnIndex("FileNum"));
-                    String contractNum = cursor.getString(cursor.getColumnIndex("contractNum"));
-                    String condition = cursor.getString(cursor.getColumnIndex("condition"));
-                    String contractorName = cursor.getString(cursor.getColumnIndex("contractorName"));
-                    String ownerName = cursor.getString(cursor.getColumnIndex("ownerName"));
-                    String designerName = cursor.getString(cursor.getColumnIndex("designerName"));
-                    String observerName = cursor.getString(cursor.getColumnIndex("observerName"));
-                    String address = cursor.getString(cursor.getColumnIndex("address"));
-                    String startDate = cursor.getString(cursor.getColumnIndex("startDate"));
-                    String endDate = cursor.getString(cursor.getColumnIndex("endDate"));
+                    String title = viCursor.getString(viCursor.getColumnIndex("title"));
+                    String fileNum = prCursor.getString(prCursor.getColumnIndex("FileNum"));
+                    String description = viCursor.getString(viCursor.getColumnIndex("text"));
+                    String visitDate = viCursor.getString(viCursor.getColumnIndex("Date"));
+                    String contractNum = prCursor.getString(prCursor.getColumnIndex("contractNum"));
+                    String condition = prCursor.getString(prCursor.getColumnIndex("condition"));
+                    String contractorName = prCursor.getString(prCursor.getColumnIndex("contractorName"));
+                    String ownerName = prCursor.getString(prCursor.getColumnIndex("ownerName"));
+                    String designerName = prCursor.getString(prCursor.getColumnIndex("designerName"));
+                    String observerName = prCursor.getString(prCursor.getColumnIndex("observerName"));
+                    String address = prCursor.getString(prCursor.getColumnIndex("address"));
+                    String startDate = prCursor.getString(prCursor.getColumnIndex("startDate"));
+                    String endDate = prCursor.getString(prCursor.getColumnIndex("endDate"));
 
 
-                    int i = cursor.getPosition() + 1;
+                    int i = viCursor.getPosition() + 1;
                     sheet.addCell(new Label(0, i, title));
                     sheet.addCell(new Label(1, i, fileNum));
-                    sheet.addCell(new Label(2, i, contractNum));
-                    sheet.addCell(new Label(3, i, condition));
-                    sheet.addCell(new Label(4, i, contractorName));
-                    sheet.addCell(new Label(5, i, ownerName));
-                    sheet.addCell(new Label(6, i, designerName));
-                    sheet.addCell(new Label(7, i, observerName));
-                    sheet.addCell(new Label(8, i, address));
-                    sheet.addCell(new Label(9, i, startDate));
-                    sheet.addCell(new Label(10, i, endDate));
-                } while (cursor.moveToNext());
+                    sheet.addCell(new Label(2, i, description));
+                    sheet.addCell(new Label(3, i, visitDate));
+                    sheet.addCell(new Label(4, i, contractNum));
+                    sheet.addCell(new Label(5, i, condition));
+                    sheet.addCell(new Label(6, i, contractorName));
+                    sheet.addCell(new Label(7, i, ownerName));
+                    sheet.addCell(new Label(8, i, designerName));
+                    sheet.addCell(new Label(9, i, observerName));
+                    sheet.addCell(new Label(10, i, address));
+                    sheet.addCell(new Label(11, i, startDate));
+                    sheet.addCell(new Label(12, i, endDate));
+                } while (viCursor.moveToNext());
             }
 
             //closing cursor
-            cursor.close();
+            viCursor.close();
+            prCursor.close();
             workbook.write();
             workbook.close();
             Toast.makeText(getApplication(),"گرفتن خروجی با موفقیت انجام شد!", Toast.LENGTH_SHORT).show();
+            return file;
         } catch (WriteException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
 
@@ -357,6 +450,12 @@ public class ProjectList extends AppCompatActivity {
 
     public void zip(String[] files, String zipFile)
     {
+
+        try {
+            syncDropbox();
+        } catch (DbxException e) {
+            e.printStackTrace();
+        }
 
         Integer BUFFER=1024;
 
@@ -389,5 +488,36 @@ public class ProjectList extends AppCompatActivity {
         } catch(Exception e) {
             e.printStackTrace();
         }
+    }
+
+    void syncDropbox() throws DbxException {
+
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+                try {
+                    while(true) {
+                        sleep(1000);
+                        String ACCESS_TOKEN = "n8hh8hu7bvq5w1f";
+
+                        DbxRequestConfig config = new DbxRequestConfig("dropbox/java-tutorial", "en_US");
+                        DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
+
+                        FullAccount account = client.users().getCurrentAccount();
+                        System.out.println(account.getName().getDisplayName());
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (DbxApiException e) {
+                    e.printStackTrace();
+                } catch (DbxException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+
+        thread.start();
+
+
     }
 }

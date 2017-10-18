@@ -34,6 +34,7 @@ public class ShowProject extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         tvObserver = (TextView) findViewById(R.id.tv_observer);
         tvObserverName = (TextView) findViewById(R.id.tv_observerName);
         tvDesignerName = (TextView) findViewById(R.id.tv_designerName);

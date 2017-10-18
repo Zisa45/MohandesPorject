@@ -225,16 +225,6 @@ public class DatabaseManager extends SQLiteOpenHelper{
                 ");\n";
         db.execSQL(cQuery);
 
-        cQuery = "CREATE TABLE createvisit (\n" +
-                "\t`visitId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
-                "\t`projectId`\tINTEGER,\n" +
-                "\t`title`\tTEXT,\n" +
-                "\t`text`\tTEXT,\n" +
-                "\t`FileNum`\tNUMERIC,\n" +
-                "\t`location`\tTEXT,\n" +
-                "\t`Date`\tTEXT\n" +
-                ");";
-        db.execSQL(cQuery);
 
         cQuery = "CREATE TABLE vImage (\n" +
                 "\t`imageId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
@@ -247,6 +237,26 @@ public class DatabaseManager extends SQLiteOpenHelper{
                 "    imageId INTEGER REFERENCES vImage(ImageId) \n" +
                 ");\n";
         db.execSQL(cQuery);
+
+        cQuery = "CREATE TABLE createvisit (\n" +
+                "\t`visitId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "\t`projectId`\tINTEGER,\n" +
+                "\t`title`\tTEXT,\n" +
+                "\t`text`\tTEXT,\n" +
+                "\t`FileNum`\tNUMERIC,\n" +
+                "\t`location`\tTEXT,\n" +
+                "\t`Date`\tTEXT\n" +
+                ");";
+        db.execSQL(cQuery);
+
+
+        cQuery = "CREATE TABLE [v_Pimage] (\n" +
+                "\t`imageId`\tINTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,\n" +
+                "    visitId       INTEGER REFERENCES createVisit (visitId),\n" +
+                "\t`image`\tBLOB\n" +
+                ");";
+        db.execSQL(cQuery);
+
 
         addAll(db);
 
@@ -1235,7 +1245,7 @@ public class DatabaseManager extends SQLiteOpenHelper{
         visitCv.put("title", visit.title);
         visitCv.put("FileNum", visit.fileNum);
         visitCv.put("text", visit.text);
-        visitCv.put("projectId", 1);
+        visitCv.put("projectId", visit.projectId);
 
         if (visit.location != null)
             visitCv.put("location", visit.location);
@@ -1273,17 +1283,32 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
         }
 
+        for (int i = 0; i < visit.p_images.size(); i++) {
+
+            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+            visit.p_images.get(i).compress(Bitmap.CompressFormat.PNG, 0, stream);
+            imageCv.put("image", stream.toByteArray());
+
+            if (insCur.getCount() == 0)
+                imageCv.put("visitId", 1);
+            else
+                imageCv.put("visitId", insCur.getInt(0) + 1);
+
+            idb.insert("v_Pimage", null, imageCv);
+
+        }
+
 
         idb.insert("createVisit", null, visitCv);
         idb.close();
         Log.i("Zeinab", "insertProject!");
     }
 
-    public ArrayList getAllvisits() {
+    public ArrayList getAllvisits(String project_id) {
 
         ArrayList list = new ArrayList<String>();
         SQLiteDatabase gdb = this.getReadableDatabase();
-        String gQuery = "select title From createVisit where projectId = 1";
+        String gQuery = "select title From createVisit where projectId =" + project_id;
         Cursor insCur = gdb.rawQuery(gQuery, null);
         if (insCur.moveToFirst()) {
             while (!insCur.isAfterLast()) {
@@ -1323,20 +1348,21 @@ public class DatabaseManager extends SQLiteOpenHelper{
 
         insCur.moveToFirst();
         Log.i("Zeinab", "if");
+        gIns.projectId = insCur.getString(insCur.getColumnIndex("projectId"));
         gIns.date = insCur.getString(insCur.getColumnIndex("Date"));
         gIns.title = insCur.getString(insCur.getColumnIndex("title"));
         gIns.fileNum = insCur.getString(insCur.getColumnIndex("FileNum"));
         gIns.text = insCur.getString(insCur.getColumnIndex("text"));
         gIns.location = insCur.getString(insCur.getColumnIndex("location"));
 
+
         String imageIdQuery = "select imageId from [createVisit-vImage] where visitId =\"" + visitId + "\"";
         Cursor isCur = gdb.rawQuery(imageIdQuery, null);
         gIns.images = new ArrayList<Bitmap>();
+        // gIns.byte_images = new ArrayList<byte[]>();
+        isCur.moveToFirst();
         int i = 0;
         do {
-            isCur.moveToFirst();
-
-
             Log.i("sara", "while");
             imgId = isCur.getInt(isCur.getColumnIndex("imageId"));
 
@@ -1345,18 +1371,31 @@ public class DatabaseManager extends SQLiteOpenHelper{
             isCur2.moveToFirst();
 
             image = isCur2.getBlob(isCur2.getColumnIndex("image"));
-            Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length);
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = 2;
 
+            Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length , options );
+            //gIns.byte_images.add(i , image);
             gIns.images.add(i, bmp);
-
-
             i++;
         }
-
         while (isCur.moveToNext()) ;
 
 
-
+        String p_image_query = "select image from [v_Pimage] where visitId =\"" + visitId + "\"";
+        Cursor pCur = gdb.rawQuery(p_image_query, null);
+        gIns.p_images = new ArrayList<Bitmap>();
+        pCur.moveToFirst();
+        int j = 0;
+        do {
+            image = pCur.getBlob(pCur.getColumnIndex("image"));
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = 2;
+            Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length , options );
+            gIns.images.add(j, bmp);
+            j++;
+        }
+        while (pCur.moveToNext()) ;
 
         return gIns;
 

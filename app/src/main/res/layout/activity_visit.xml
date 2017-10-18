@@ -9,267 +9,558 @@
     tools:context="com.example.zeinab.menu2.createVisit"
     tools:showIn="@layout/activity_visit">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="14dp"
-        android:layout_marginRight="14dp"
-        android:orientation="horizontal"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp">
 
-        <TextView
-            android:id="@+id/tv_cancle"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1.15"
-            android:gravity="left"
-            android:text="لغو"
-            android:textColor="#3797d1"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tv_titr"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1.15"
-            android:gravity="center_vertical|center"
-            android:text="بازدید پروژه"
-            android:textColor="#000000"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tv_done"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1.15"
-            android:gravity="right"
-            android:text="تایید"
-            android:textColor="#3797d1"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#c0c0c0" />
-
-    <Button
-        android:id="@+id/date_button"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:drawableRight="@drawable/ic_action_calendar_day"
-        android:layout_marginRight="18dp"
-        android:layout_marginLeft="18dp"
-        android:textDirection="rtl"
-       />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="14dp"
-        android:layout_marginRight="14dp"
-        android:orientation="horizontal"
-        android:weightSum="1">
-
-
-
-        <EditText
-            android:id="@+id/et_title"
-            android:singleLine="true"
-            android:layout_width="234dp"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:gravity="right|center_vertical"
-            android:inputType="text"
-            android:hint=""
-            android:padding="10dp"
-            android:textColor="#000000"
-
-            android:textSize="16sp" />
-
-
-        <TextView
-            android:id="@+id/tv_title"
-            style="@style/texts"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_marginLeft="0dp"
-            android:drawablePadding="0dp"
-            android:foregroundGravity="right"
-            android:gravity="center_vertical"
-            android:paddingBottom="0dp"
-            android:paddingEnd="0dp"
-            android:paddingLeft="0dp"
-            android:paddingRight="0dp"
-            android:paddingStart="0dp"
-            android:paddingTop="0dp"
-            android:drawableRight="@drawable/ic_action_folder_open"
-            android:text="عنوان بازدید" />
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:fitsSystemWindows="true"
+            android:foregroundGravity="fill_vertical"
+            android:theme="@style/AppTheme.AppBarOverlay">
 
-    </LinearLayout>
+            <View
+                android:id="@+id/view"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
 
-    <View
-        android:id="@+id/view2"
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#c0c0c0" />
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:foregroundGravity="center_vertical|fill_vertical"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center_vertical"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
 
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginRight="14dp"
+                        android:foregroundGravity="bottom"
+                        android:orientation="horizontal"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="14dp"
-        android:layout_marginRight="14dp"
-        android:orientation="horizontal"
-        android:weightSum="1">
+                        <TextView
+                            android:id="@+id/tv_cancle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.15"
+                            android:foregroundGravity="center_vertical"
+                            android:gravity="left|center_vertical"
+                            android:text="لغو"
+                            android:textColor="#3797D1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_titr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.15"
+                            android:foregroundGravity="center_vertical"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="ایجاد پروژه"
+                            android:textColor="#000000"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_done"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.15"
+                            android:foregroundGravity="center_vertical"
+                            android:gravity="right|center_vertical"
+                            android:text="تایید"
+                            android:textColor="#3797D1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
 
 
-        <EditText
-            android:id="@+id/et_fileNum"
-            android:layout_width="231dp"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:gravity="right|center_vertical"
-            android:hint=""
-            android:inputType="number"
-            android:padding="10dp"
-            android:singleLine="true"
-            android:textColor="#000000"
-
-            android:textSize="16sp" />
-        <!--<EditText-->
-        <!--android:id="@+id/et_fileNum"-->
-        <!--android:layout_width="136dp"-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent"-->
-        <!--android:layout_marginLeft="75dp"-->
-        <!--android:ems="10"-->
-        <!--android:gravity="right|center_vertical"-->
-        <!--android:inputType="number"-->
-        <!--android:paddingBottom="5dp"-->
-        <!--android:paddingTop="5dp" />-->
+        <!--android:layout_marginLeft="14dp"-->
+        <!--android:layout_marginRight="14dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingTop="10dp">-->
 
-        <TextView
-            android:id="@+id/tv_fileNum"
-            style="@style/texts"
+        <!--<TextView-->
+        <!--android:id="@+id/tv_cancle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.15"-->
+        <!--android:gravity="left"-->
+        <!--android:text="لغو"-->
+        <!--android:textColor="#3797d1"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_titr"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.15"-->
+        <!--android:gravity="center_vertical|center"-->
+        <!--android:text="بازدید پروژه"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_done"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.15"-->
+        <!--android:gravity="right"-->
+        <!--android:text="تایید"-->
+        <!--android:textColor="#3797d1"-->
+        <!--android:textSize="18sp" />-->
+
+        <!--</LinearLayout>-->
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <Button
+            android:id="@+id/date_button"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:layout_marginLeft="0dp"
-            android:drawablePadding="0dp"
-            android:foregroundGravity="right"
-            android:gravity="center_vertical"
-            android:paddingBottom="0dp"
-            android:paddingEnd="0dp"
-            android:paddingLeft="0dp"
-            android:paddingRight="0dp"
-            android:paddingStart="0dp"
-            android:paddingTop="0dp"
-            android:drawableRight="@drawable/ic_action_document"
-            android:text="شماره پرونده" />
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="#c0c0c0" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/et_txt"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="14dp"
-            android:layout_weight="1"
-            android:background="@drawable/shape"
-            android:ellipsize="end"
-            android:ems="10"
-            android:gravity="right"
-
-            android:hint="توضیحات"
-            android:inputType="textMultiLine"
-            android:overScrollMode="always"
-            android:scrollbarStyle="insideInset"
-            android:scrollbars="vertical"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal"
-        >
-
-        <ImageButton
-        android:id="@+id/location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_action_location"
-        android:background="@android:color/transparent"
-        android:layout_marginRight="80dp"
-
-        />
-
-        <ImageButton
-            android:id="@+id/camera"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_action_camera"
             android:background="@android:color/transparent"
-            android:layout_marginLeft="80dp"
+            android:drawableRight="@drawable/ic_action_calendar_day"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:textDirection="rtl"
             />
 
-    </LinearLayout>
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="horizontal"
 
-        >
-        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/gridview"
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:columnWidth="90dp"
-            android:numColumns="auto_fit"
-            android:verticalSpacing="9dp"
-            android:horizontalSpacing="9dp"
-            android:stretchMode="columnWidth"
-            android:gravity="center"
-            android:layout_margin="3dp"
-            />
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
 
-        <!--<android.support.v7.widget.AppCompatImageView-->
+
+
+            <TextView
+                android:id="@+id/project_title"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+
+            <EditText
+                android:id="@+id/et_title"
+                android:singleLine="true"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:inputType="text"
+                android:hint=""
+                android:padding="10dp"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_folder_open"
+                android:text="عنوان بازدید" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <EditText
+                android:id="@+id/et_fileNum"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="right|center_vertical"
+                android:hint=""
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+
+                android:textSize="16sp" />
+            <!--<EditText-->
+            <!--android:id="@+id/et_fileNum"-->
+            <!--android:layout_width="136dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="75dp"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:inputType="number"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingTop="5dp" />-->
+
+            <TextView
+                android:id="@+id/tv_fileNum"
+                style="@style/texts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="0dp"
+                android:drawablePadding="0dp"
+                android:foregroundGravity="right"
+                android:gravity="center_vertical"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:drawableRight="@drawable/ic_action_document"
+                android:text="شماره پرونده" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:ellipsize="end"
+                android:ems="10"
+                android:gravity="right"
+
+                android:hint="توضیحات"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+
+            <TextView
+                android:id="@+id/loc_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableRight="@drawable/ic_action_location"
+                android:hint=" برای ایجاد موقعیت کلیک کنید"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/loc"-->
+            <!--style="@style/texts"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:drawablePadding="0dp"-->
+            <!--android:foregroundGravity="right"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingBottom="0dp"-->
+            <!--android:paddingEnd="0dp"-->
+            <!--android:paddingLeft="0dp"-->
+            <!--android:paddingRight="0dp"-->
+            <!--android:paddingStart="0dp"-->
+            <!--android:paddingTop="0dp"-->
+            <!--android:drawableRight="@drawable/ic_action_location"-->
+            <!--android:text="موقعیت" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/proceedings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/colorPrimary"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="تصاویر صورت جلسه"
+                />
+
+            <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:id="@+id/gridview2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:columnWidth="90dp"-->
+            <!--android:numColumns="auto_fit"-->
+            <!--android:verticalSpacing="9dp"-->
+            <!--android:horizontalSpacing="9dp"-->
+            <!--android:stretchMode="columnWidth"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="3dp"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gridview2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="9dp"
+                android:horizontalSpacing="9dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                />
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
             <!--android:id="@+id/image"-->
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content" />-->
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/colorPrimary"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:text="تصاویر"
+                />
+
+            <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:id="@+id/gridview2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:columnWidth="90dp"-->
+            <!--android:numColumns="auto_fit"-->
+            <!--android:verticalSpacing="9dp"-->
+            <!--android:horizontalSpacing="9dp"-->
+            <!--android:stretchMode="columnWidth"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="3dp"-->
+            <!--/>-->
+
+        </LinearLayout>
+
+
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--&gt;-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/location"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/ic_action_location"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:layout_marginRight="80dp"-->
+
+        <!--/>-->
+
+        <!--&lt;!&ndash;<ImageButton&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/camera"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:srcCompat="@drawable/ic_action_camera"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@android:color/transparent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="80dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+
+            >
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="9dp"
+                android:horizontalSpacing="9dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                />
+
+            <!--<android.support.v7.widget.AppCompatImageView-->
+            <!--android:id="@+id/image"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+
+
+
     </LinearLayout>
-
-
-
-
-</LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

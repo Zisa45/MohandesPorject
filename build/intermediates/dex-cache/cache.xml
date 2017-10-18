@@ -3,12 +3,57 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\zeinab\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.1\8b93f301823b79033fcbe873779b3d84f9730fc1\jackson-annotations-2.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8b93f301823b79033fcbe873779b3d84f9730fc1">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.7.1_f71af5f3099f1f53bcd729d3f3e26e7380148834.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.1\4127b62db028f981e81caa248953c0899d720f98\jackson-core-2.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4127b62db028f981e81caa248953c0899d720f98">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\jackson-core-2.7.1_da49c32b21fa630faacd666a7f159adb0f46f660.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.1-1\381bac8a9251eea3b6a1e12c77d54dd946ad449d\jackson-databind-2.7.1-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="381bac8a9251eea3b6a1e12c77d54dd946ad449d">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\jackson-databind-2.7.1-1_5a1902ed992c5454f3ae06f0e431424d3e15b7e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\libs\jxl.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
         <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\jxl_a3761c61c6f8ef1f07c0c91fa50a10607042754e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.gradle\caches\modules-2\files-2.1\com.dropbox.core\dropbox-core-sdk\2.0.1\77167a7c620a5c94426c74c13c547cfad310729a\dropbox-core-sdk-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="77167a7c620a5c94426c74c13c547cfad310729a">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\dropbox-core-sdk-2.0.1_a7d04ce34848469345a95ba58a08a7158f3ba204.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\zeinab\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\zeinab\Desktop\MohandesPro-Mehr\MohandesPorject\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_29c852edd651afa459f17fc6a6bb9c594feb8102.jar" />
     </item>
 
 </items>

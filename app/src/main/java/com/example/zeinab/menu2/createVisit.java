@@ -1,13 +1,22 @@
 package com.example.zeinab.menu2;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Layout;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -16,6 +25,7 @@ import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,6 +41,7 @@ import com.mohamadamin.persianmaterialdatetimepicker.utils.PersianCalendar;
 
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class createVisit extends AppCompatActivity implements
@@ -43,27 +54,49 @@ public class createVisit extends AppCompatActivity implements
             DATEPICKER = "DatePickerDialog", MULTIDATEPICKER = "MultiDatePickerDialog";
 
     private Button timeButton, dateButton, multiDataButton;
-    private ImageButton camera , location;
     private ImageView image;
-    private GridView gv;
+    private GridView gv , pgv;
     private EditText txt , filenum , title;
     int PLACE_PICKER_REQUEST ;
     private ArrayList<String> pathList;
     private  DatabaseManager dbm;
     private  Place place;
-    ArrayList<Bitmap> list;
+    private String project_id;
+    private View lay;
+    private TextView location ,project_title;
+    ArrayList<Bitmap> list , plist;
     AsyncTask<Void, Void, Bitmap> mTask;
+    private Button proceedings , camera;
+    private static final int camera_request  = 2;
+    private static final int gallery_request = 3;
+    private static final int proceeding_camera_request = 4;
+    private  static final int proceeding_gallery_request = 5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visit);
 
+        project_id = getIntent().getStringExtra("project_id");
+
         gv = (GridView) findViewById(R.id.gridview);
+        pgv = (GridView) findViewById(R.id.gridview2);
         txt = (EditText) findViewById(R.id.et_txt);
         title = (EditText) findViewById(R.id.et_title);
         filenum = (EditText) findViewById(R.id.et_fileNum);
+        project_title = (TextView) findViewById(R.id.project_title);
+
+        proceedings = (Button) findViewById(R.id.proceedings);
+
         list = new ArrayList<Bitmap>();
+        plist = new ArrayList<Bitmap>();
+
+        dbm = new DatabaseManager(this);
+        Project prj = new Project();
+        prj = dbm.getProject(getApplicationContext(),project_id);
+        project_title.setText( "عنوان پروژه "+ prj.title);
+
 
         initializeViews();
         handleClicks();
@@ -75,8 +108,11 @@ public class createVisit extends AppCompatActivity implements
             @Override
             public void onClick(View v) {
                 String date = dateButton.getText().toString();
+                String location;
                 String text = txt.getText().toString();
-                String location = place.getLatLng().toString();
+                if(place != null) {
+                    location = place.getLatLng().toString();
+                }
                 String Filenum = filenum.getText().toString();
                 String Title =title.getText().toString();
 
@@ -91,9 +127,13 @@ public class createVisit extends AppCompatActivity implements
                     temp.text = text;
                     temp.date = date;
                     temp.images = list;
-                    temp.location =place.getLatLng().toString();
+                    if(place!= null){
+                        temp.location =place.getLatLng().toString();
+                    }
                     temp.title = Title;
                     temp.fileNum = Filenum;
+                    temp.projectId = project_id;
+                    temp.p_images = plist;
 
 
                     Log.i("Zeinab", "zisa");
@@ -101,7 +141,19 @@ public class createVisit extends AppCompatActivity implements
 
                     Toast.makeText(createVisit.this, "ساخت پروژه با موفقیت انجام شد!", Toast.LENGTH_SHORT).show();
                     Log.i("Zeinab", "Project Inserted!");
+
+                    startActivity(new Intent(createVisit.this, MainActivity.class));
+                    finish();
                 }
+            }
+        });
+
+        TextView cancel = (TextView) findViewById(R.id.tv_cancle);
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(createVisit.this, MainActivity.class));
+                finish();
             }
         });
     }
@@ -111,94 +163,261 @@ public class createVisit extends AppCompatActivity implements
         dateButton = (Button) findViewById(R.id.date_button);
         PersianCalendar now = new PersianCalendar();
         dateButton.setText(now.getPersianLongDate());
+        lay = findViewById(R.id.layer);
 
-        location = (ImageButton) findViewById(R.id.location);
-        camera = (ImageButton) findViewById(R.id.camera);
+        location = (TextView) findViewById(R.id.loc_text);
+        camera = (Button) findViewById(R.id.camera);
         //image= (ImageView) findViewById(R.id.image);
     }
 
 
     private void handleClicks() {
         dateButton.setOnClickListener(this);
-        location.setOnClickListener(this);
+//        location.setOnClickListener(this);
         camera.setOnClickListener(this);
+        proceedings.setOnClickListener(this);
+        lay.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-
-            case R.id.date_button: {
-                PersianCalendar now = new PersianCalendar();
-                DatePickerDialog dpd = DatePickerDialog.newInstance(
-                        createVisit.this,
-                        now.getPersianYear(),
-                        now.getPersianMonth(),
-                        now.getPersianDay()
-                );
-
-                dpd.show(getFragmentManager(), DATEPICKER);
-                break;
-            }
-
-            case R.id.location: {
-                //startActivity(new Intent(createVisit.this, MapsActivity.class));
-                PLACE_PICKER_REQUEST = 1;
-                PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
 
 
 
-                try {
-                    startActivityForResult(builder.build(this), PLACE_PICKER_REQUEST);
-                } catch (GooglePlayServicesRepairableException e) {
-                    e.printStackTrace();
-                } catch (GooglePlayServicesNotAvailableException e) {
-                    e.printStackTrace();
-                }
-                break;
-            }
-            case R.id.camera: {
+        if(view.getId() == R.id.date_button) {
+            PersianCalendar now = new PersianCalendar();
+            DatePickerDialog dpd = DatePickerDialog.newInstance(
+                    createVisit.this,
+                    now.getPersianYear(),
+                    now.getPersianMonth(),
+                    now.getPersianDay()
+            );
 
-                Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(intent,2);
+            dpd.show(getFragmentManager(), DATEPICKER);
 
-//                Intent intent = new Intent();
-//                intent.setType("image/*");
-//                intent.setAction(Intent.ACTION_GET_CONTENT);
-//                intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
-//                startActivityForResult(Intent.createChooser(intent, "Select Picture"), 2);
-            }
-         default:
-                break;
         }
+
+//       else if(view.getId() == R.id.location) {
+//                //startActivity(new Intent(createVisit.this, MapsActivity.class));
+//                PLACE_PICKER_REQUEST = 1;
+//                PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
+//
+//
+//
+//                try {
+//                    startActivityForResult(builder.build(this), PLACE_PICKER_REQUEST);
+//                } catch (GooglePlayServicesRepairableException e) {
+//                    e.printStackTrace();
+//                } catch (GooglePlayServicesNotAvailableException e) {
+//                    e.printStackTrace();
+//                }
+//
+//            }
+
+
+        else if(view.getId() == R.id.proceedings)
+        {
+            PopupMenu menu = new PopupMenu(getApplicationContext(), view);
+            menu.getMenuInflater().inflate(R.menu.visit, menu.getMenu());
+            menu.show();
+
+            menu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(MenuItem item) {
+
+                    switch (item.getItemId()) {
+                        case R.id.action1:
+                        {Intent intent = new Intent();
+                            intent.setType("image/*");
+                            intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+                            intent.setAction(Intent.ACTION_GET_CONTENT);
+                            startActivityForResult(Intent.createChooser(intent, "Select Picture"), proceeding_gallery_request);
+                            return true;}
+
+                        case R.id.action2:{
+                            Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                            startActivityForResult(intent,proceeding_camera_request);
+                            return true;}
+
+                        case R.id.action3:
+
+                            return true;
+
+                        default:
+                            return true;
+
+                    }
+                }
+            });
+        }
+
+
+        else if(view.getId() == R.id.camera)
+        {
+            PopupMenu menu = new PopupMenu(getApplicationContext(), view);
+            menu.getMenuInflater().inflate(R.menu.visit, menu.getMenu());
+            menu.show();
+
+            menu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                @Override
+                public boolean onMenuItemClick(MenuItem item) {
+
+                    switch (item.getItemId()) {
+                        case R.id.action1:
+                        {Intent intent = new Intent();
+                            intent.setType("image/*");
+                            intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true);
+                            intent.setAction(Intent.ACTION_GET_CONTENT);
+                            startActivityForResult(Intent.createChooser(intent, "Select Picture"), gallery_request);
+                            return true;}
+
+                        case R.id.action2:{
+                            Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                            startActivityForResult(intent,camera_request);
+                            return true;}
+
+                        case R.id.action3:
+
+                            return true;
+
+                        default:
+                            return true;
+
+                    }
+                }
+            });
+        }
+
+        else  if(view.getId() == R.id.layer)
+        {
+            //startActivity(new Intent(createVisit.this, MapsActivity.class));
+            PLACE_PICKER_REQUEST = 1;
+            PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
+
+
+
+            try {
+                startActivityForResult(builder.build(this), PLACE_PICKER_REQUEST);
+            } catch (GooglePlayServicesRepairableException e) {
+                e.printStackTrace();
+            } catch (GooglePlayServicesNotAvailableException e) {
+                e.printStackTrace();
+            }
+//
+
+        }
+
+
+
+
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == PLACE_PICKER_REQUEST) {
             if (resultCode == RESULT_OK) {
                 place = PlacePicker.getPlace(data, this);
-
+                location.setText(place.getAddress());
                 Toast.makeText(this, place.getName(), Toast.LENGTH_LONG).show();
 
             }
+        }if (requestCode == camera_request)
+        {
+            list.add((Bitmap) data.getExtras().get("data"));
+            gv.setAdapter(new GridAdapter(this , list));
+
         }
 
-       if (requestCode ==2)
-       {
+        if (requestCode == gallery_request)
+        {
 
-          // Bitmap bp = (Bitmap) data.getExtras().get("data");
+            ClipData clipData = data.getClipData();
+            if(clipData != null) {
+                for (int i = 0; i < clipData.getItemCount(); i++) {
+                    Uri uri = clipData.getItemAt(i).getUri();
 
-           // image.setImageBitmap(bp);
+                    try {
+                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                        // Log.d(TAG, String.valueOf(bitmap));
 
-          // File file = new File(data.getData().getPath());
-           list.add((Bitmap) data.getExtras().get("data"));
 
-           gv.setAdapter(new GridAdapter(this));
-//         Uri uri = (Uri) data.getExtras().get("data");
-//          image.setImageURI(uri);
-       }
+                        list.add(bitmap);
+                        gv.setAdapter(new GridAdapter(this, list ));
+
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+            else{
+                Uri uri = data.getData();try {
+                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                    // Log.d(TAG, String.valueOf(bitmap));
+
+
+                    list.add(bitmap);
+                    gv.setAdapter(new GridAdapter(this , list));
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+
+
+            }
+
+        }
+
+
+
+        if (requestCode ==proceeding_camera_request)
+        {
+            plist.add((Bitmap) data.getExtras().get("data"));
+            pgv.setAdapter(new GridAdapter(this , plist));
+
+        }
+
+        if (requestCode ==proceeding_gallery_request)
+        {
+
+            ClipData clipData = data.getClipData();
+            if(clipData != null) {
+                for (int i = 0; i < clipData.getItemCount(); i++) {
+                    Uri uri = clipData.getItemAt(i).getUri();
+
+                    try {
+                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                        // Log.d(TAG, String.valueOf(bitmap));
+
+
+                        plist.add(bitmap);
+                        pgv.setAdapter(new GridAdapter(this, plist ));
+
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+            else{
+                Uri uri = data.getData();try {
+                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                    // Log.d(TAG, String.valueOf(bitmap));
+
+
+                    plist.add(bitmap);
+                    pgv.setAdapter(new GridAdapter(this , plist));
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+
+
+            }
+
+        }
     }
 
 
@@ -208,7 +427,7 @@ public class createVisit extends AppCompatActivity implements
         String hourString = hourOfDay < 10 ? "0" + hourOfDay : "" + hourOfDay;
         String minuteString = minute < 10 ? "0" + minute : "" + minute;
         String time = "You picked the following time: " + hourString + ":" + minuteString;
-       // timeTextView.setText(time);
+        // timeTextView.setText(time);
     }
 
 
@@ -267,19 +486,21 @@ public class createVisit extends AppCompatActivity implements
         public Bitmap bmp = null;
         public File file ;
         private Context mContext;
+        private ArrayList <Bitmap> mylist;
 
 
-        public GridAdapter(Context c) {
+        public GridAdapter(Context c , ArrayList<Bitmap> l) {
             mContext = c;
+            mylist = l;
         }
         @Override
         public int getCount() {
-            return list.size();
+            return mylist.size();
         }
 
         @Override
         public Object getItem(int position) {
-            return list.get(position);
+            return mylist.get(position);
         }
 
         @Override
@@ -322,7 +543,7 @@ public class createVisit extends AppCompatActivity implements
                 // your ImageViews. I’m going to use setLayoutParams to specify how each image should be resized
                 DisplayMetrics metrics = getApplicationContext().getResources().getDisplayMetrics();
                 int screenWidth = metrics.widthPixels;
-               // int dimen = (int) (getResources().getDimensionPixelSize(100)/getResources().getDisplayMetrics().density);
+                // int dimen = (int) (getResources().getDimensionPixelSize(100)/getResources().getDisplayMetrics().density);
                 imageView.setLayoutParams(new GridView.LayoutParams(screenWidth/4, screenWidth/4));
 //                imageView.setLayoutParams(new GridView.LayoutParams(300, 300));
                 // setScaleType defines how the image should be scaled and positioned. I’m using the CENTER_CROP
@@ -338,7 +559,7 @@ public class createVisit extends AppCompatActivity implements
             // ImageView we just created
 
             //mTask =  new myTask(imageView,Uri.parse(getItem(position).toString()) ).execute();
-            imageView.setImageBitmap(list.get(position));
+            imageView.setImageBitmap(mylist.get(position));
 
 //            Log.e("sara", getFilesDir()+ file.getAbsolutePath());
 //            Uri pictureUri = Uri.fromFile(file);

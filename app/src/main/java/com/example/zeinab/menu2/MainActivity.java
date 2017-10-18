@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,18 +122,18 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if (id == R.id.nav_manage) {
-            Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
-        } else if (id == R.id.nav_share) {
+            startActivity(new Intent(MainActivity.this, SaraTemp.class));
+//            Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
+        } else if (id == R.id.nav_favorite) {
             Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         } else if (id == R.id.nav_search) {
             startActivity(new Intent(MainActivity.this, Search.class));
-
             //Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         }
 
         else if (id == R.id.nav_about) {
-//            startActivity(new Intent(MainActivity.this, About.class));
-            startActivity(new Intent(MainActivity.this, Export.class));
+            startActivity(new Intent(MainActivity.this, About.class));
+//            startActivity(new Intent(MainActivity.this, Export.class));
             //Toast.makeText(getApplicationContext() , "not implemented!" , Toast.LENGTH_LONG).show();
         }
 

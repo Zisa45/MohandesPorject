@@ -9,11 +9,14 @@ import java.util.ArrayList;
  */
 
 public class visit {
+    public String projectId;
     public String date;
     public String fileNum;
     public String title;
     public String location;
     public String text;
     public ArrayList<Bitmap> images;
+    public ArrayList<Bitmap> p_images;
+
 
 }

@@ -105,4 +105,5 @@
     <string name="title_activity_add_designer">AddDesigner</string>
     <string name="title_activity_edit_project">EditProject</string>
     <string name="title_activity_maps">Map</string>
+    <string name="APP_KEY">n8hh8hu7bvq5w1f</string>
 </resources>

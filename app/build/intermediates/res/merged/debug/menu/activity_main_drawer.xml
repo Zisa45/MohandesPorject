@@ -20,9 +20,9 @@
     <item android:title="">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_insert_chart_black_48dp"
-                android:title="گزارش" />
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_favorite_black_48dp"
+                android:title="مورد علاقه ها" />
             <item
                 android:id="@+id/nav_search"
                 android:icon="@drawable/ic_search_black_48dp"

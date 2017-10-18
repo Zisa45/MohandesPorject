@@ -21,7 +21,6 @@ import jxl.write.biff.RowsExceededException;
 public class Export extends AppCompatActivity {
 
     DatabaseManager dbm = new DatabaseManager(this);
-    String project_id, file_name;
     Project prj;
     visit vst;
 
@@ -30,6 +29,8 @@ public class Export extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_export);
 
+
+        String project_id, file_name;
         project_id = getIntent().getStringExtra("project_id");
         file_name = getIntent().getStringExtra("file_name");
         dbm = new DatabaseManager(this);
@@ -40,7 +41,7 @@ public class Export extends AppCompatActivity {
 
 
         //old
-        final Cursor cursor = dbm.getProjectExport(project_id);
+
 
 
         File sd = Environment.getExternalStorageDirectory();
@@ -51,8 +52,15 @@ public class Export extends AppCompatActivity {
         if (!directory.isDirectory()) {
             directory.mkdirs();
         }
+
+        export(directory, csvFile, project_id);
+    }
+
+
+    void export(File directory, String csvFile, String project_id){
         try {
 
+            final Cursor cursor = dbm.getProjectExport(project_id);
             //file path
             File file = new File(directory, csvFile);
             WorkbookSettings wbSettings = new WorkbookSettings();
@@ -109,10 +117,14 @@ public class Export extends AppCompatActivity {
             workbook.write();
             workbook.close();
             Toast.makeText(getApplication(),"گرفتن خروجی با موفقیت انجام شد!", Toast.LENGTH_SHORT).show();
+
+
         } catch (WriteException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
+
 }
